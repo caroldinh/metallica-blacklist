@@ -1,1 +1,4 @@
 .obsidian/
+venv/
+.ipynb_checkpoints
+get_access_token.txt
