@@ -20,6 +20,11 @@ The Blacklist, however, is heavy with Millennials. These musicians would have be
 **Chart showing generational distribution of the Blacklist**
 
 Scroll to find the latest Metallica album released at the start of each artist's career. 
+**Chart showing average age of each genre on the Blacklist**
+
+# She With The Deadly Bite
+Gender distribution of genres represented on Metallica blacklist
+
 # Take My Hand
 https://www.allwithinmyhands.org/news-media/news-from-awmh/the-metallica-blacklist-donates-over-1-million.html 
 - Metallica is "apolitical"
