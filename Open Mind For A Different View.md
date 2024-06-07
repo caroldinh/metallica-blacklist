@@ -19,6 +19,10 @@ The Blacklist, however, is heavy with Millennials. These musicians would have be
 
 **Chart showing generational distribution of the Blacklist**
 
+Millennials, born between 1981 and 1996, dominate the Blacklist. If Metallica was a person, it too would be a millennial---the band was founded in 1981. During this time span, Metallica released an album on average every two to three years. The eighties were especially prolific: while in their late teens and early twenties, they released *Kill 'Em All*, *Ride the Lightning,* *Master of Puppets*, and *...And Justice For All*, regarded as seminal metal records today.
+
+Millennial babies grew up in the aftermath of Metallica's rise: rather than from underground clubs and snail mail tape trades, they disovered Metallica through MTV, rock radio, their older siblings' disc collections, video games like Guitar Hero.
+
 Scroll to find the latest Metallica album released at the start of each artist's career. 
 **Chart showing average age of each genre on the Blacklist**
 

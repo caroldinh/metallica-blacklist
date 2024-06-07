@@ -1,0 +1,589 @@
+**********
+
+ENTER SANDMAN
+Alessia Cara
+canadian contemporary r&b	average_age:29.9	percent_female:51.7
+canadian pop	average_age:34.0	percent_female:54.4
+pop	average_age:28.9	percent_female:59.1
+OVERALL:	average_age:30.933333333333334	percent_female:55.06666666666666
+
+The Warning
+mexican metal	average_age:32.8	percent_female:13.4
+monterrey indie	average_age:29.5	percent_female:33.8
+OVERALL:	average_age:31.15	percent_female:23.599999999999998
+
+**********
+
+ENTER SANDMAN
+Mac DeMarco
+edmonton indie	average_age:34.5	percent_female:38.0
+lo-fi indie	average_age:26.5	percent_female:37.9
+pov: indie	average_age:25.1	percent_female:50.9
+slacker rock	average_age:0	percent_female:0
+OVERALL:	average_age:28.7	percent_female:42.26666666666667
+
+**********
+
+ENTER SANDMAN
+Ghost
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+OVERALL:	average_age:37.7	percent_female:17.1
+
+**********
+
+ENTER SANDMAN
+Juanes
+colombian pop	average_age:31.9	percent_female:57.1
+latin pop	average_age:35.2	percent_female:57.5
+mexican pop	average_age:34.1	percent_female:59.1
+rock en espanol	average_age:34.1	percent_female:36.6
+OVERALL:	average_age:33.824999999999996	percent_female:52.574999999999996
+
+**********
+
+ENTER SANDMAN
+Rina Sawayama
+art pop	average_age:32.6	percent_female:44.2
+electropop	average_age:31.1	percent_female:50.2
+escape room	average_age:29.6	percent_female:41.0
+indie pop	average_age:28.5	percent_female:59.1
+OVERALL:	average_age:30.450000000000003	percent_female:48.625
+
+**********
+
+ENTER SANDMAN
+Weezer
+alternative rock	average_age:35.9	percent_female:28.8
+modern power pop	average_age:40.1	percent_female:24.0
+modern rock	average_age:31.1	percent_female:39.0
+permanent wave	average_age:37.4	percent_female:36.8
+rock	average_age:36.9	percent_female:29.5
+OVERALL:	average_age:36.28	percent_female:31.619999999999997
+
+**********
+
+SAD BUT TRUE (LIVE)
+Sam Fender
+modern rock	average_age:31.1	percent_female:39.0
+north east england indie	average_age:36.5	percent_female:37.7
+OVERALL:	average_age:33.8	percent_female:38.35
+
+**********
+
+SAD BUT TRUE
+Jason Isbell and the 400 Unit
+alternative country	average_age:42.8	percent_female:28.1
+folk	average_age:46.3	percent_female:36.7
+new americana	average_age:39.1	percent_female:41.4
+roots rock	average_age:46.5	percent_female:25.2
+OVERALL:	average_age:43.675	percent_female:32.85
+
+**********
+
+SAD BUT TRUE
+Mexican Institute Of Sound
+latin alternative	average_age:34.3	percent_female:36.7
+mexican indie	average_age:31.2	percent_female:34.8
+mexican rock	average_age:33.2	percent_female:29.2
+OVERALL:	average_age:32.9	percent_female:33.56666666666667
+
+La Perla
+tropical alternativo	average_age:35.5	percent_female:46.5
+OVERALL:	average_age:35.5	percent_female:46.5
+
+Gera MX
+mexican hip hop	average_age:26.7	percent_female:17.1
+rap conciencia	average_age:29.2	percent_female:22.1
+OVERALL:	average_age:27.95	percent_female:19.6
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+SAD BUT TRUE
+Royal Blood
+brighton indie	average_age:33.7	percent_female:33.8
+garage rock	average_age:36.1	percent_female:25.8
+modern alternative rock	average_age:30.3	percent_female:34.0
+modern blues rock	average_age:41.6	percent_female:20.1
+modern hard rock	average_age:41.0	percent_female:16.2
+modern rock	average_age:31.1	percent_female:39.0
+rock	average_age:36.9	percent_female:29.5
+OVERALL:	average_age:35.81428571428572	percent_female:28.342857142857138
+
+**********
+
+SAD BUT TRUE
+St. Vincent
+art pop	average_age:32.6	percent_female:44.2
+etherpop	average_age:34.7	percent_female:46.6
+indie rock	average_age:33.3	percent_female:37.3
+indietronica	average_age:32.9	percent_female:38.3
+metropopolis	average_age:33.1	percent_female:42.0
+neo-synthpop	average_age:37.4	percent_female:31.3
+OVERALL:	average_age:34.0	percent_female:39.95000000000001
+
+**********
+
+SAD BUT TRUE
+White Reaper
+indie punk	average_age:32.2	percent_female:29.2
+louisville indie	average_age:33.6	percent_female:39.5
+modern power pop	average_age:40.1	percent_female:24.0
+OVERALL:	average_age:35.300000000000004	percent_female:30.900000000000002
+
+**********
+
+SAD BUT TRUE
+YB
+k-rock	average_age:29.6	percent_female:51.7
+korean indie rock	average_age:27.0	percent_female:49.4
+OVERALL:	average_age:28.3	percent_female:50.55
+
+**********
+
+HOLIER THAN THOU
+Biffy Clyro
+modern rock	average_age:31.1	percent_female:39.0
+scottish rock	average_age:36.7	percent_female:30.6
+OVERALL:	average_age:33.900000000000006	percent_female:34.8
+
+**********
+
+HOLIER THAN THOU
+The Chats
+australian garage punk	average_age:31.5	percent_female:23.3
+brisbane punk	average_age:36.6	percent_female:21.1
+OVERALL:	average_age:34.05	percent_female:22.200000000000003
+
+**********
+
+HOLIER THAN THOU
+OFF!
+hardcore punk	average_age:35.4	percent_female:15.2
+punk	average_age:36.2	percent_female:18.7
+OVERALL:	average_age:35.8	percent_female:16.95
+
+**********
+
+HOLIER THAN THOU
+PUP
+alternative emo	average_age:29.5	percent_female:25.0
+bubblegrunge	average_age:30.6	percent_female:38.0
+canadian indie	average_age:37.2	percent_female:35.3
+canadian pop punk	average_age:31.4	percent_female:22.2
+canadian punk	average_age:36.8	percent_female:16.5
+emo	average_age:31.4	percent_female:24.6
+indie punk	average_age:32.2	percent_female:29.2
+toronto indie	average_age:33.9	percent_female:39.7
+OVERALL:	average_age:32.875	percent_female:28.8125
+
+**********
+
+HOLIER THAN THOU
+Corey Taylor
+alternative metal	average_age:33.4	percent_female:21.6
+alternative rock	average_age:35.9	percent_female:28.8
+nu metal	average_age:33.9	percent_female:19.7
+post-grunge	average_age:34.2	percent_female:26.4
+OVERALL:	average_age:34.349999999999994	percent_female:24.125
+
+**********
+
+THE UNFORGIVEN
+Cage The Elephant
+modern alternative rock	average_age:30.3	percent_female:34.0
+modern rock	average_age:31.1	percent_female:39.0
+pov: indie	average_age:25.1	percent_female:50.9
+punk blues	average_age:39.6	percent_female:20.9
+rock	average_age:36.9	percent_female:29.5
+OVERALL:	average_age:32.6	percent_female:34.86
+
+**********
+
+THE UNFORGIVEN
+Vishal Dadlani
+filmi	average_age:27.9	percent_female:35.7
+modern bollywood	average_age:25.4	percent_female:39.9
+OVERALL:	average_age:26.65	percent_female:37.8
+
+DIVINE
+desi hip hop	average_age:23.9	percent_female:19.9
+desi trap	average_age:22.9	percent_female:16.9
+hindi hip hop	average_age:22.9	percent_female:14.0
+OVERALL:	average_age:23.23333333333333	percent_female:16.933333333333334
+
+Shor Police
+OVERALL:	average_age:0	percent_female:0
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+THE UNFORGIVEN
+Diet Cig
+bubblegrunge	average_age:30.6	percent_female:38.0
+indie punk	average_age:32.2	percent_female:29.2
+OVERALL:	average_age:31.400000000000002	percent_female:33.6
+
+**********
+
+THE UNFORGIVEN
+Flatbush Zombies
+psychedelic hip hop	average_age:30.5	percent_female:28.2
+underground hip hop	average_age:27.5	percent_female:20.8
+OVERALL:	average_age:29.0	percent_female:24.5
+
+DJ Scratch
+OVERALL:	average_age:0	percent_female:0
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+THE UNFORGIVEN
+Ha*Ash
+latin arena pop	average_age:34.6	percent_female:58.0
+latin pop	average_age:35.2	percent_female:57.5
+mexican pop	average_age:34.1	percent_female:59.1
+OVERALL:	average_age:34.63333333333333	percent_female:58.199999999999996
+
+**********
+
+THE UNFORGIVEN
+José Madero
+mexican indie	average_age:31.2	percent_female:34.8
+OVERALL:	average_age:31.2	percent_female:34.8
+
+**********
+
+THE UNFORGIVEN
+Moses Sumney
+alternative r&b	average_age:30.3	percent_female:52.2
+art pop	average_age:32.6	percent_female:44.2
+indie soul	average_age:32.9	percent_female:40.9
+la pop	average_age:30.6	percent_female:50.4
+OVERALL:	average_age:31.6	percent_female:46.925000000000004
+
+**********
+
+WHEREVER I MAY ROAM
+J Balvin
+reggaeton	average_age:27.8	percent_female:38.9
+reggaeton colombiano	average_age:28.5	percent_female:49.6
+trap latino	average_age:26.3	percent_female:33.1
+urbano latino	average_age:26.8	percent_female:37.7
+OVERALL:	average_age:27.349999999999998	percent_female:39.825
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+WHEREVER I MAY ROAM
+Chase & Status
+dancefloor dnb	average_age:30.1	percent_female:16.0
+drum and bass	average_age:32.6	percent_female:17.0
+uk dance	average_age:32.1	percent_female:34.9
+OVERALL:	average_age:31.600000000000005	percent_female:22.633333333333336
+
+BackRoad Gee
+grime	average_age:29.5	percent_female:18.8
+uk hip hop	average_age:27.9	percent_female:21.8
+OVERALL:	average_age:28.7	percent_female:20.3
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+WHEREVER I MAY ROAM
+The Neptunes
+OVERALL:	average_age:0	percent_female:0
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+WHEREVER I MAY ROAM
+Jon Pardi
+contemporary country	average_age:34.7	percent_female:51.4
+country	average_age:38.8	percent_female:43.6
+country road	average_age:36.4	percent_female:45.2
+modern country rock	average_age:34.7	percent_female:46.0
+OVERALL:	average_age:36.150000000000006	percent_female:46.55
+
+**********
+
+DON'T TREAD ON ELSE MATTERS
+SebastiAn
+filter house	average_age:34.0	percent_female:24.4
+OVERALL:	average_age:34.0	percent_female:24.4
+
+Metallica
+hard rock	average_age:40.2	percent_female:20.3
+metal	average_age:35.2	percent_female:13.9
+old school thrash	average_age:36.5	percent_female:10.5
+rock	average_age:36.9	percent_female:29.5
+thrash metal	average_age:35.3	percent_female:10.2
+OVERALL:	average_age:36.82000000000001	percent_female:16.880000000000003
+
+**********
+
+DON'T TREAD ON ME
+Portugal. The Man
+indie rock	average_age:33.3	percent_female:37.3
+indietronica	average_age:32.9	percent_female:38.3
+modern alternative rock	average_age:30.3	percent_female:34.0
+modern rock	average_age:31.1	percent_female:39.0
+OVERALL:	average_age:31.9	percent_female:37.15
+
+Aaron Beam
+OVERALL:	average_age:0	percent_female:0
+
+**********
+
+DON'T TREAD ON ME
+Volbeat
+danish metal	average_age:35.9	percent_female:13.2
+danish rock	average_age:38.1	percent_female:29.8
+OVERALL:	average_age:37.0	percent_female:21.5
+
+**********
+
+THROUGH THE NEVER
+The HU
+mongolian alternative	average_age:28.3	percent_female:38.3
+oriental metal	average_age:31.5	percent_female:21.5
+OVERALL:	average_age:29.9	percent_female:29.9
+
+**********
+
+THROUGH THE NEVER
+Tomi Owó
+OVERALL:	average_age:0	percent_female:0
+
+**********
+
+NOTHING ELSE MATTERS
+Phoebe Bridgers
+indie pop	average_age:28.5	percent_female:59.1
+la indie	average_age:31.4	percent_female:43.9
+pov: indie	average_age:25.1	percent_female:50.9
+OVERALL:	average_age:28.333333333333332	percent_female:51.300000000000004
+
+**********
+
+NOTHING ELSE MATTERS
+Miley Cyrus
+pop	average_age:28.9	percent_female:59.1
+OVERALL:	average_age:28.9	percent_female:59.1
+
+WATT
+modern alternative rock	average_age:30.3	percent_female:34.0
+OVERALL:	average_age:30.3	percent_female:34.0
+
+Elton John
+glam rock	average_age:42.3	percent_female:30.5
+mellow gold	average_age:44.2	percent_female:34.7
+piano rock	average_age:33.8	percent_female:44.0
+rock	average_age:36.9	percent_female:29.5
+OVERALL:	average_age:39.3	percent_female:34.675
+
+Yo-Yo Ma
+chamber ensemble	average_age:0	percent_female:0
+classical cello	average_age:39.4	percent_female:48.6
+classical performance	average_age:44.0	percent_female:39.8
+OVERALL:	average_age:41.7	percent_female:44.2
+
+Robert Trujillo
+OVERALL:	average_age:0	percent_female:0
+
+Chad Smith
+rock drums	average_age:42.0	percent_female:18.1
+OVERALL:	average_age:42.0	percent_female:18.1
+
+**********
+
+NOTHING ELSE MATTERS
+Dave Gahan
+alternative dance	average_age:34.4	percent_female:33.4
+OVERALL:	average_age:34.4	percent_female:33.4
+
+**********
+
+NOTHING ELSE MATTERS
+Mickey Guyton
+black americana	average_age:39.5	percent_female:48.1
+contemporary country	average_age:34.7	percent_female:51.4
+country pop	average_age:35.1	percent_female:51.5
+OVERALL:	average_age:36.43333333333334	percent_female:50.333333333333336
+
+**********
+
+NOTHING ELSE MATTERS
+Dermot Kennedy
+folk-pop	average_age:34.1	percent_female:54.9
+irish pop	average_age:33.4	percent_female:51.8
+uk pop	average_age:31.9	percent_female:57.5
+OVERALL:	average_age:33.13333333333333	percent_female:54.73333333333333
+
+**********
+
+NOTHING ELSE MATTERS
+Mon Laferte
+latin alternative	average_age:34.3	percent_female:36.7
+OVERALL:	average_age:34.3	percent_female:36.7
+
+**********
+
+NOTHING ELSE MATTERS
+Igor Levit
+classical piano	average_age:40.9	percent_female:45.1
+russian classical piano	average_age:41.4	percent_female:41.0
+OVERALL:	average_age:41.15	percent_female:43.05
+
+**********
+
+NOTHING ELSE MATTERS
+My Morning Jacket
+chamber pop	average_age:35.7	percent_female:40.1
+indie rock	average_age:33.3	percent_female:37.3
+jam band	average_age:40.6	percent_female:22.5
+louisville indie	average_age:33.6	percent_female:39.5
+melancholia	average_age:38.7	percent_female:36.7
+roots rock	average_age:46.5	percent_female:25.2
+stomp and holler	average_age:35.2	percent_female:45.8
+OVERALL:	average_age:37.65714285714285	percent_female:35.300000000000004
+
+**********
+
+NOTHING ELSE MATTERS
+PG Roxette
+OVERALL:	average_age:0	percent_female:0
+
+**********
+
+NOTHING ELSE MATTERS
+Darius Rucker
+black americana	average_age:39.5	percent_female:48.1
+contemporary country	average_age:34.7	percent_female:51.4
+country	average_age:38.8	percent_female:43.6
+country road	average_age:36.4	percent_female:45.2
+modern country rock	average_age:34.7	percent_female:46.0
+OVERALL:	average_age:36.82000000000001	percent_female:46.86
+
+**********
+
+NOTHING ELSE MATTERS
+Chris Stapleton
+contemporary country	average_age:34.7	percent_female:51.4
+outlaw country	average_age:41.9	percent_female:24.8
+OVERALL:	average_age:38.3	percent_female:38.1
+
+**********
+
+NOTHING ELSE MATTERS
+TRESOR
+south african pop	average_age:31.0	percent_female:40.5
+south african pop dance	average_age:30.2	percent_female:40.9
+OVERALL:	average_age:30.6	percent_female:40.7
+
+**********
+
+OF WOLF AND MAN
+Goodnight, Texas
+rebel blues	average_age:31.2	percent_female:31.6
+OVERALL:	average_age:31.2	percent_female:31.6
+
+**********
+
+THE GOD THAT FAILED
+IDLES
+bristol indie	average_age:34.2	percent_female:32.0
+crank wave	average_age:34.4	percent_female:26.7
+indie rock	average_age:33.3	percent_female:37.3
+modern rock	average_age:31.1	percent_female:39.0
+OVERALL:	average_age:33.25	percent_female:33.75
+
+**********
+
+THE GOD THAT FAILED
+Imelda May
+neo-rockabilly	average_age:45.4	percent_female:17.1
+rockabilly	average_age:46.0	percent_female:28.6
+OVERALL:	average_age:45.7	percent_female:22.85
+
+**********
+
+MY FRIEND OF MISERY
+Cherry Glazerr
+bubblegrunge	average_age:30.6	percent_female:38.0
+indie punk	average_age:32.2	percent_female:29.2
+indie surf	average_age:31.5	percent_female:38.0
+la indie	average_age:31.4	percent_female:43.9
+OVERALL:	average_age:31.425000000000004	percent_female:37.275
+
+**********
+
+MY FRIEND OF MISERY
+Izïa
+french indie pop	average_age:34.6	percent_female:45.9
+french pop	average_age:34.8	percent_female:56.0
+french rock	average_age:38.7	percent_female:33.1
+nouvelle chanson francaise	average_age:39.4	percent_female:50.4
+OVERALL:	average_age:36.875	percent_female:46.35
+
+**********
+
+MY FRIEND OF MISERY
+Kamasi Washington
+afrofuturism	average_age:33.4	percent_female:34.0
+contemporary jazz	average_age:41.2	percent_female:23.4
+indie soul	average_age:32.9	percent_female:40.9
+jazz	average_age:41.0	percent_female:25.5
+jazz saxophone	average_age:42.5	percent_female:26.0
+OVERALL:	average_age:38.2	percent_female:29.96
+
+**********
+
+THE STRUGGLE WITHIN
+Rodrigo y Gabriela
+acoustic rock	average_age:36.0	percent_female:26.3
+world	average_age:39.0	percent_female:38.3
+OVERALL:	average_age:37.5	percent_female:32.3
