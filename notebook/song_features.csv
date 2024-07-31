@@ -1,0 +1,66 @@
+Title,Original Title,Artists,Danceability,Energy,Speechiness,Acousticness,Instrumentalness,Liveness,Valence,Key,Mode,Tempo,Loudness,Is Original
+Enter Sandman,Enter Sandman,"Alessia Cara, The Warning",0.537,0.636,0.0279,0.000172,0.000576,0.138,0.162,4,0,130.997,-9.164,Cover
+Enter Sandman,Enter Sandman,"Mac DeMarco",0.577,0.796,0.0356,8.43e-05,0.0189,0.107,0.427,0,1,126.721,-5.486,Cover
+Enter Sandman,Enter Sandman,"Ghost",0.356,0.708,0.039,0.00253,0.000102,0.0951,0.378,2,1,123.035,-6.52,Cover
+Enter Sandman,Enter Sandman,"Juanes",0.775,0.535,0.0434,0.00118,5.69e-05,0.0739,0.655,2,1,123.018,-6.613,Cover
+Enter Sandman,Enter Sandman,"Rina Sawayama",0.519,0.954,0.113,0.00122,0.00015,0.0847,0.302,9,0,124.695,-4.413,Cover
+Enter Sandman,Enter Sandman,"Weezer",0.533,0.846,0.0499,0.00105,0.0114,0.145,0.446,5,0,124.2,-4.934,Cover
+Sad But True (Live),Sad But True,"Sam Fender",0.536,0.269,0.0261,0.698,0,0.0681,0.205,3,0,65.946,-7.055,Cover
+Sad But True,Sad But True,"Jason Isbell and the 400 Unit",0.369,0.887,0.0631,0.0113,0.0359,0.232,0.49,7,1,105.867,-4.582,Cover
+Sad But True,Sad But True,"Mexican Institute Of Sound, La Perla, Gera MX, Metallica",0.578,0.818,0.147,0.00215,0.0162,0.335,0.451,2,1,178.083,-5.119,Cover
+Sad But True,Sad But True,"Royal Blood",0.477,0.872,0.034,8.75e-05,0.00323,0.0756,0.631,7,1,89.092,-4.436,Cover
+Sad But True,Sad But True,"St. Vincent",0.479,0.733,0.0871,0.000589,0.000432,0.283,0.508,9,0,179.995,-8.539,Cover
+Sad But True,Sad But True,"White Reaper",0.48,0.846,0.0356,0.00011,0.00442,0.37,0.415,7,1,92.203,-4.975,Cover
+Sad But True,Sad But True,"YB",0.476,0.932,0.0364,4.78e-05,0.155,0.0721,0.609,0,1,98.002,-4.233,Cover
+Holier Than Thou,Holier Than Thou,"Biffy Clyro",0.471,0.735,0.0375,0.0039,0.000523,0.165,0.0598,6,1,144.058,-8.33,Cover
+Holier Than Thou,Holier Than Thou,"The Chats",0.156,0.987,0.156,0.00247,0.293,0.12,0.0395,9,1,184.117,-4.354,Cover
+Holier Than Thou,Holier Than Thou,"OFF!",0.224,0.995,0.263,2.31e-05,0.601,0.0758,0.143,4,1,176.374,-5.408,Cover
+Holier Than Thou,Holier Than Thou,"PUP",0.407,0.944,0.0397,6.7e-05,0.0204,0.334,0.614,1,0,170.953,-5.257,Cover
+Holier Than Thou,Holier Than Thou,"Corey Taylor",0.478,0.987,0.0685,0.00144,0.00607,0.837,0.547,1,0,172.065,-3.528,Cover
+The Unforgiven,The Unforgiven,"Cage The Elephant",0.576,0.634,0.0311,0.0563,0.163,0.136,0.189,7,1,143.989,-8.99,Cover
+The Unforgiven,The Unforgiven,"Vishal Dadlani, DIVINE, Shor Police, Metallica",0.591,0.544,0.0383,0.142,0,0.152,0.449,6,0,140.016,-8.901,Cover
+The Unforgiven,The Unforgiven,"Diet Cig",0.286,0.81,0.0569,0.00362,0.102,0.211,0.247,0,1,138.742,-5.625,Cover
+The Unforgiven,The Unforgiven,"Flatbush Zombies, DJ Scratch, Metallica",0.589,0.893,0.079,0.00809,0.000188,0.166,0.366,7,1,97.994,-6.342,Cover
+The Unforgiven,The Unforgiven,"Ha*Ash",0.539,0.483,0.0352,0.489,0,0.101,0.23,7,0,148.222,-6.921,Cover
+The Unforgiven,The Unforgiven,"José Madero",0.551,0.634,0.0332,0.355,1.7e-06,0.0896,0.278,8,0,129.909,-6.895,Cover
+The Unforgiven,The Unforgiven,"Moses Sumney",0.393,0.274,0.0541,0.802,0.00581,0.114,0.105,3,0,139.159,-15.417,Cover
+Wherever I May Roam,Wherever I May Roam,"J Balvin, Metallica",0.685,0.738,0.0329,0.0024,0,0.386,0.199,5,1,129.002,-5.893,Cover
+Wherever I May Roam,Wherever I May Roam,"Chase & Status, BackRoad Gee, Metallica",0.626,0.734,0.376,0.233,2.62e-05,0.0645,0.347,9,1,139.726,-6.456,Cover
+Wherever I May Roam,Wherever I May Roam,"The Neptunes, Metallica",0.703,0.943,0.0632,0.0151,0.0115,0.095,0.518,0,1,132.003,-7.265,Cover
+Wherever I May Roam,Wherever I May Roam,"Jon Pardi",0.432,0.905,0.0618,0.0014,0.00918,0.389,0.237,2,1,133.827,-3.214,Cover
+Don't Tread on Else Matters,Don't Tread on Me,"SebastiAn, Metallica",0.391,0.621,0.179,0.0101,0.171,0.0911,0.512,9,1,161.879,-5.593,Cover
+Don't Tread on Me,Don't Tread on Me,"Portugal. The Man, Aaron Beam",0.355,0.878,0.148,0.00325,0.0164,0.274,0.158,2,1,105.962,-5.987,Cover
+Don't Tread on Me,Don't Tread on Me,"Volbeat",0.565,0.934,0.0488,2.57e-05,0.00103,0.187,0.562,0,1,125.027,-6.022,Cover
+Through the Never,Through the Never,"The HU",0.478,0.91,0.084,0.000742,0.2,0.0955,0.369,1,1,94.336,-7.019,Cover
+Through the Never,Through the Never,"Tomi Owó",0.439,0.789,0.0998,0.0366,0.000101,0.0723,0.761,0,1,85.216,-7.316,Cover
+Nothing Else Matters,Nothing Else Matters,"Phoebe Bridgers",0.355,0.317,0.0325,0.885,0.00679,0.111,0.529,11,0,151.984,-14.056,Cover
+Nothing Else Matters,Nothing Else Matters,"Miley Cyrus, WATT, Elton John, Yo-Yo Ma, Robert Trujillo, Chad Smith",0.444,0.66,0.0297,0.00551,1.92e-05,0.115,0.144,4,0,142.519,-5.658,Cover
+Nothing Else Matters,Nothing Else Matters,"Dave Gahan",0.17,0.144,0.037,0.926,0.251,0.0846,0.124,4,0,75.971,-18.95,Cover
+Nothing Else Matters,Nothing Else Matters,"Mickey Guyton",0.335,0.546,0.0432,0.0343,4.85e-05,0.0811,0.195,9,0,139.318,-8.223,Cover
+Nothing Else Matters,Nothing Else Matters,"Dermot Kennedy",0.494,0.116,0.0332,0.951,1.51e-06,0.0895,0.152,4,0,72.543,-10.829,Cover
+Nothing Else Matters,Nothing Else Matters,"Mon Laferte",0.45,0.617,0.0302,0.542,0.0799,0.101,0.153,9,0,151.096,-7.586,Cover
+Nothing Else Matters,Nothing Else Matters,"Igor Levit",0.416,0.214,0.0379,0.988,0.908,0.0526,0.135,4,0,72.078,-15.543,Cover
+Nothing Else Matters,Nothing Else Matters,"My Morning Jacket",0.641,0.642,0.0351,0.239,6.08e-05,0.209,0.635,4,1,123.053,-6.027,Cover
+Nothing Else Matters,Nothing Else Matters,"PG Roxette",0.269,0.52,0.0375,0.0554,0.0186,0.123,0.232,10,0,154.938,-8.541,Cover
+Nothing Else Matters,Nothing Else Matters,"Darius Rucker",0.384,0.414,0.0279,0.0817,0.00811,0.0955,0.116,4,0,142.509,-8.07,Cover
+Nothing Else Matters,Nothing Else Matters,"Chris Stapleton",0.326,0.635,0.0322,0.0207,0.425,0.106,0.26,0,1,131.533,-7.122,Cover
+Nothing Else Matters,Nothing Else Matters,"TRESOR",0.597,0.261,0.0299,0.27,0.00439,0.11,0.0463,6,0,139.859,-13.189,Cover
+Of Wolf and Man,Of Wolf and Man,"Goodnight, Texas",0.507,0.417,0.0311,0.0435,4.55e-05,0.1,0.351,5,1,116.026,-12.376,Cover
+The God That Failed,The God That Failed,"IDLES",0.329,0.868,0.0559,1.42e-05,6.85e-06,0.188,0.338,11,1,111.425,-6.37,Cover
+The God That Failed,The God That Failed,"Imelda May",0.459,0.764,0.0355,0.0285,0.00193,0.113,0.353,11,0,162.771,-5.749,Cover
+My Friend of Misery,My Friend of Misery,"Cherry Glazerr",0.588,0.865,0.0628,0.0648,9.1e-05,0.0825,0.365,9,1,119.985,-5.798,Cover
+My Friend of Misery,My Friend of Misery,"Izïa",0.621,0.799,0.0337,0.00216,0.00434,0.102,0.238,2,1,130.012,-5.349,Cover
+My Friend of Misery,My Friend of Misery,"Kamasi Washington",0.376,0.802,0.0809,0.016,0.665,0.0564,0.454,6,1,90.408,-7.809,Cover
+The Struggle Within,The Struggle Within,"Rodrigo y Gabriela",0.801,0.957,0.0742,0.0936,0.797,0.0572,0.54,6,0,97.468,-5.686,Cover
+Enter Sandman (Remastered),Enter Sandman,Metallica,0.566,0.834,0.0298,0.00277,0.008,0.0625,0.621,6,0,123.296,-8.412,Original
+Sad But True (Remastered),Sad But True,Metallica,0.624,0.876,0.0342,0.000926,0.00164,0.0561,0.453,7,1,89.24,-6.005,Original
+Holier Than Thou (Remastered),Holier Than Thou,Metallica,0.458,0.97,0.0408,0.00178,0.272,0.0826,0.342,4,0,172.123,-5.915,Original
+The Unforgiven (Remastered),The Unforgiven,Metallica,0.531,0.583,0.0256,0.0184,0.00624,0.255,0.207,7,1,139.503,-9.47,Original
+Wherever I May Roam (Remastered),Wherever I May Roam,Metallica,0.539,0.834,0.0364,0.000646,0.000516,0.119,0.339,9,0,131.383,-7.459,Original
+Don't Tread on Me (Remastered),Don't Tread on Me,Metallica,0.655,0.882,0.0491,0.0068,0.00297,0.259,0.678,4,0,108.019,-6.471,Original
+Through the Never (Remastered),Through the Never,Metallica,0.384,0.95,0.0546,0.0109,0.351,0.139,0.482,4,0,94.266,-5.943,Original
+Nothing Else Matters (Remastered),Nothing Else Matters,Metallica,0.547,0.394,0.0262,0.0522,6.4e-06,0.0795,0.17,4,0,142.37,-9.793,Original
+Of Wolf and Man (Remastered),Of Wolf and Man,Metallica,0.605,0.792,0.0366,0.000988,0.0382,0.0852,0.47,5,1,121.768,-6.87,Original
+The God That Failed (Remastered),The God That Failed,Metallica,0.551,0.813,0.0363,0.000451,0.000123,0.174,0.431,8,1,83.046,-6.406,Original
+My Friend of Misery (Remastered),My Friend of Misery,Metallica,0.567,0.855,0.0355,0.000235,0.00714,0.1,0.329,9,0,119.513,-7.623,Original
+The Struggle Within (Remastered),The Struggle Within,Metallica,0.466,0.944,0.0514,0.0014,0.0289,0.236,0.505,0,1,98.766,-6.498,Original

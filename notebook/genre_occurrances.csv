@@ -1,136 +1,136 @@
-Genre,Occurrances,Artists
-"canadian contemporary r&b",1,"Alessia Cara"
-"canadian pop",1,"Alessia Cara"
-"pop",2,"Alessia Cara, Miley Cyrus"
-"mexican metal",1,"The Warning"
-"monterrey indie",1,"The Warning"
-"edmonton indie",1,"Mac DeMarco"
-"lo-fi indie",1,"Mac DeMarco"
-"pov: indie",3,"Mac DeMarco, Cage The Elephant, Phoebe Bridgers"
-"slacker rock",1,"Mac DeMarco"
-"hard rock",1,"Ghost"
-"metal",1,"Ghost"
-"colombian pop",1,"Juanes"
-"latin pop",2,"Juanes, Ha*Ash"
-"mexican pop",2,"Juanes, Ha*Ash"
-"rock en espanol",1,"Juanes"
-"art pop",3,"Rina Sawayama, St. Vincent, Moses Sumney"
-"electropop",1,"Rina Sawayama"
-"escape room",1,"Rina Sawayama"
-"indie pop",2,"Rina Sawayama, Phoebe Bridgers"
-"alternative rock",2,"Weezer, Corey Taylor"
-"modern power pop",2,"Weezer, White Reaper"
-"modern rock",7,"Weezer, Sam Fender, Royal Blood, Biffy Clyro, Cage The Elephant, Portugal. The Man, IDLES"
-"permanent wave",1,"Weezer"
-"rock",4,"Weezer, Royal Blood, Cage The Elephant, Elton John"
-"north east england indie",1,"Sam Fender"
-"alternative country",1,"Jason Isbell and the 400 Unit"
-"folk",1,"Jason Isbell and the 400 Unit"
-"new americana",1,"Jason Isbell and the 400 Unit"
-"roots rock",2,"Jason Isbell and the 400 Unit, My Morning Jacket"
-"latin alternative",2,"Mexican Institute Of Sound, Mon Laferte"
-"mexican indie",2,"Mexican Institute Of Sound, José Madero"
-"mexican rock",1,"Mexican Institute Of Sound"
-"tropical alternativo",1,"La Perla"
-"mexican hip hop",1,"Gera MX"
-"rap conciencia",1,"Gera MX"
-"old school thrash",0,""
-"thrash metal",0,""
-"brighton indie",1,"Royal Blood"
-"garage rock",1,"Royal Blood"
-"modern alternative rock",4,"Royal Blood, Cage The Elephant, Portugal. The Man, WATT"
-"modern blues rock",1,"Royal Blood"
-"modern hard rock",1,"Royal Blood"
-"etherpop",1,"St. Vincent"
-"indie rock",4,"St. Vincent, Portugal. The Man, My Morning Jacket, IDLES"
-"indietronica",2,"St. Vincent, Portugal. The Man"
-"metropopolis",1,"St. Vincent"
-"neo-synthpop",1,"St. Vincent"
-"indie punk",4,"White Reaper, PUP, Diet Cig, Cherry Glazerr"
-"louisville indie",2,"White Reaper, My Morning Jacket"
-"k-rock",1,"YB"
-"korean indie rock",1,"YB"
-"scottish rock",1,"Biffy Clyro"
-"australian garage punk",1,"The Chats"
-"brisbane punk",1,"The Chats"
-"hardcore punk",1,"OFF!"
-"punk",1,"OFF!"
-"alternative emo",1,"PUP"
-"bubblegrunge",3,"PUP, Diet Cig, Cherry Glazerr"
-"canadian indie",1,"PUP"
-"canadian pop punk",1,"PUP"
-"canadian punk",1,"PUP"
-"emo",1,"PUP"
-"toronto indie",1,"PUP"
-"alternative metal",1,"Corey Taylor"
-"nu metal",1,"Corey Taylor"
-"post-grunge",1,"Corey Taylor"
-"punk blues",1,"Cage The Elephant"
-"filmi",1,"Vishal Dadlani"
-"modern bollywood",1,"Vishal Dadlani"
-"desi hip hop",1,"DIVINE"
-"desi trap",1,"DIVINE"
-"hindi hip hop",1,"DIVINE"
-"psychedelic hip hop",1,"Flatbush Zombies"
-"underground hip hop",1,"Flatbush Zombies"
-"latin arena pop",1,"Ha*Ash"
-"alternative r&b",1,"Moses Sumney"
-"indie soul",2,"Moses Sumney, Kamasi Washington"
-"la pop",1,"Moses Sumney"
-"reggaeton",1,"J Balvin"
-"reggaeton colombiano",1,"J Balvin"
-"trap latino",1,"J Balvin"
-"urbano latino",1,"J Balvin"
-"dancefloor dnb",1,"Chase & Status"
-"drum and bass",1,"Chase & Status"
-"uk dance",1,"Chase & Status"
-"grime",1,"BackRoad Gee"
-"uk hip hop",1,"BackRoad Gee"
-"contemporary country",4,"Jon Pardi, Mickey Guyton, Darius Rucker, Chris Stapleton"
-"country",2,"Jon Pardi, Darius Rucker"
-"country road",2,"Jon Pardi, Darius Rucker"
-"modern country rock",2,"Jon Pardi, Darius Rucker"
-"filter house",1,"SebastiAn"
-"danish metal",1,"Volbeat"
-"danish rock",1,"Volbeat"
-"mongolian alternative",1,"The HU"
-"oriental metal",1,"The HU"
-"la indie",2,"Phoebe Bridgers, Cherry Glazerr"
-"glam rock",1,"Elton John"
-"mellow gold",1,"Elton John"
-"piano rock",1,"Elton John"
-"chamber ensemble",1,"Yo-Yo Ma"
-"classical cello",1,"Yo-Yo Ma"
-"classical performance",1,"Yo-Yo Ma"
-"rock drums",1,"Chad Smith"
-"alternative dance",1,"Dave Gahan"
-"black americana",2,"Mickey Guyton, Darius Rucker"
-"country pop",1,"Mickey Guyton"
-"folk-pop",1,"Dermot Kennedy"
-"irish pop",1,"Dermot Kennedy"
-"uk pop",1,"Dermot Kennedy"
-"classical piano",1,"Igor Levit"
-"russian classical piano",1,"Igor Levit"
-"chamber pop",1,"My Morning Jacket"
-"jam band",1,"My Morning Jacket"
-"melancholia",1,"My Morning Jacket"
-"stomp and holler",1,"My Morning Jacket"
-"outlaw country",1,"Chris Stapleton"
-"south african pop",1,"TRESOR"
-"south african pop dance",1,"TRESOR"
-"rebel blues",1,"Goodnight, Texas"
-"bristol indie",1,"IDLES"
-"crank wave",1,"IDLES"
-"neo-rockabilly",1,"Imelda May"
-"rockabilly",1,"Imelda May"
-"indie surf",1,"Cherry Glazerr"
-"french indie pop",1,"Izïa"
-"french pop",1,"Izïa"
-"french rock",1,"Izïa"
-"nouvelle chanson francaise",1,"Izïa"
-"afrofuturism",1,"Kamasi Washington"
-"contemporary jazz",1,"Kamasi Washington"
-"jazz",1,"Kamasi Washington"
-"jazz saxophone",1,"Kamasi Washington"
-"acoustic rock",1,"Rodrigo y Gabriela"
-"world",1,"Rodrigo y Gabriela"
+Genre,Category,Occurrances,Artists,Percent Female,Average Age
+"canadian contemporary r&b",Misc.,1,"Alessia Cara",51.7,29.9
+"canadian pop",Pop,1,"Alessia Cara",54.4,34.0
+"pop",Pop,2,"Alessia Cara, Miley Cyrus",59.1,28.9
+"mexican metal",Metal,1,"The Warning",13.4,32.8
+"monterrey indie",Alternative / Indie,1,"The Warning",33.8,29.5
+"edmonton indie",Alternative / Indie,1,"Mac DeMarco",38.0,34.5
+"lo-fi indie",Alternative / Indie,1,"Mac DeMarco",37.9,26.5
+"pov: indie",Alternative / Indie,3,"Mac DeMarco, Cage The Elephant, Phoebe Bridgers",50.9,25.1
+"slacker rock",Rock,1,"Mac DeMarco",0,0
+"hard rock",Rock,1,"Ghost",20.3,40.2
+"metal",Metal,1,"Ghost",13.9,35.2
+"colombian pop",Pop,1,"Juanes",57.1,31.9
+"latin pop",Pop,2,"Juanes, Ha*Ash",57.5,35.2
+"mexican pop",Pop,2,"Juanes, Ha*Ash",59.1,34.1
+"rock en espanol",Rock,1,"Juanes",36.6,34.1
+"art pop",Pop,3,"Rina Sawayama, St. Vincent, Moses Sumney",44.2,32.6
+"electropop",Pop,1,"Rina Sawayama",50.2,31.1
+"escape room",Misc.,1,"Rina Sawayama",41.0,29.6
+"indie pop",Pop,2,"Rina Sawayama, Phoebe Bridgers",59.1,28.5
+"alternative rock",Rock,2,"Weezer, Corey Taylor",28.8,35.9
+"modern power pop",Pop,2,"Weezer, White Reaper",24.0,40.1
+"modern rock",Rock,7,"Weezer, Sam Fender, Royal Blood, Biffy Clyro, Cage The Elephant, Portugal. The Man, IDLES",39.0,31.1
+"permanent wave",Misc.,1,"Weezer",36.8,37.4
+"rock",Rock,4,"Weezer, Royal Blood, Cage The Elephant, Elton John",29.5,36.9
+"north east england indie",Alternative / Indie,1,"Sam Fender",37.7,36.5
+"alternative country",Country / Folk,1,"Jason Isbell and the 400 Unit",28.1,42.8
+"folk",Country / Folk,1,"Jason Isbell and the 400 Unit",36.7,46.3
+"new americana",Country / Folk,1,"Jason Isbell and the 400 Unit",41.4,39.1
+"roots rock",Rock,2,"Jason Isbell and the 400 Unit, My Morning Jacket",25.2,46.5
+"latin alternative",Alternative / Indie,2,"Mexican Institute Of Sound, Mon Laferte",36.7,34.3
+"mexican indie",Alternative / Indie,2,"Mexican Institute Of Sound, José Madero",34.8,31.2
+"mexican rock",Rock,1,"Mexican Institute Of Sound",29.2,33.2
+"tropical alternativo",Alternative / Indie,1,"La Perla",46.5,35.5
+"mexican hip hop",Hip-Hop / Rap,1,"Gera MX",17.1,26.7
+"rap conciencia",Hip-Hop / Rap,1,"Gera MX",22.1,29.2
+"old school thrash",Metal,0,"",10.5,36.5
+"thrash metal",Metal,0,"",10.2,35.3
+"brighton indie",Alternative / Indie,1,"Royal Blood",33.8,33.7
+"garage rock",Rock,1,"Royal Blood",25.8,36.1
+"modern alternative rock",Rock,4,"Royal Blood, Cage The Elephant, Portugal. The Man, WATT",34.0,30.3
+"modern blues rock",Rock,1,"Royal Blood",20.1,41.6
+"modern hard rock",Rock,1,"Royal Blood",16.2,41.0
+"etherpop",Pop,1,"St. Vincent",46.6,34.7
+"indie rock",Rock,4,"St. Vincent, Portugal. The Man, My Morning Jacket, IDLES",37.3,33.3
+"indietronica",Alternative / Indie,2,"St. Vincent, Portugal. The Man",38.3,32.9
+"metropopolis",Pop,1,"St. Vincent",42.0,33.1
+"neo-synthpop",Pop,1,"St. Vincent",31.3,37.4
+"indie punk",Punk,4,"White Reaper, PUP, Diet Cig, Cherry Glazerr",29.2,32.2
+"louisville indie",Alternative / Indie,2,"White Reaper, My Morning Jacket",39.5,33.6
+"k-rock",Rock,1,"YB",51.7,29.6
+"korean indie rock",Rock,1,"YB",49.4,27.0
+"scottish rock",Rock,1,"Biffy Clyro",30.6,36.7
+"australian garage punk",Punk,1,"The Chats",23.3,31.5
+"brisbane punk",Punk,1,"The Chats",21.1,36.6
+"hardcore punk",Punk,1,"OFF!",15.2,35.4
+"punk",Punk,1,"OFF!",18.7,36.2
+"alternative emo",Alternative / Indie,1,"PUP",25.0,29.5
+"bubblegrunge",Alternative / Indie,3,"PUP, Diet Cig, Cherry Glazerr",38.0,30.6
+"canadian indie",Alternative / Indie,1,"PUP",35.3,37.2
+"canadian pop punk",Punk,1,"PUP",22.2,31.4
+"canadian punk",Punk,1,"PUP",16.5,36.8
+"emo",Misc.,1,"PUP",24.6,31.4
+"toronto indie",Alternative / Indie,1,"PUP",39.7,33.9
+"alternative metal",Metal,1,"Corey Taylor",21.6,33.4
+"nu metal",Metal,1,"Corey Taylor",19.7,33.9
+"post-grunge",Alternative / Indie,1,"Corey Taylor",26.4,34.2
+"punk blues",Punk,1,"Cage The Elephant",20.9,39.6
+"filmi",Misc.,1,"Vishal Dadlani",35.7,27.9
+"modern bollywood",Misc.,1,"Vishal Dadlani",39.9,25.4
+"desi hip hop",Hip-Hop / Rap,1,"DIVINE",19.9,23.9
+"desi trap",Hip-Hop / Rap,1,"DIVINE",16.9,22.9
+"hindi hip hop",Hip-Hop / Rap,1,"DIVINE",14.0,22.9
+"psychedelic hip hop",Hip-Hop / Rap,1,"Flatbush Zombies",28.2,30.5
+"underground hip hop",Hip-Hop / Rap,1,"Flatbush Zombies",20.8,27.5
+"latin arena pop",Pop,1,"Ha*Ash",58.0,34.6
+"alternative r&b",Alternative / Indie,1,"Moses Sumney",52.2,30.3
+"indie soul",Alternative / Indie,2,"Moses Sumney, Kamasi Washington",40.9,32.9
+"la pop",Pop,1,"Moses Sumney",50.4,30.6
+"reggaeton",Electronic,1,"J Balvin",38.9,27.8
+"reggaeton colombiano",Electronic,1,"J Balvin",49.6,28.5
+"trap latino",Hip-Hop / Rap,1,"J Balvin",33.1,26.3
+"urbano latino",Misc.,1,"J Balvin",37.7,26.8
+"dancefloor dnb",Electronic,1,"Chase & Status",16.0,30.1
+"drum and bass",Misc.,1,"Chase & Status",17.0,32.6
+"uk dance",Electronic,1,"Chase & Status",34.9,32.1
+"grime",Misc.,1,"BackRoad Gee",18.8,29.5
+"uk hip hop",Hip-Hop / Rap,1,"BackRoad Gee",21.8,27.9
+"contemporary country",Country / Folk,4,"Jon Pardi, Mickey Guyton, Darius Rucker, Chris Stapleton",51.4,34.7
+"country",Country / Folk,2,"Jon Pardi, Darius Rucker",43.6,38.8
+"country road",Country / Folk,2,"Jon Pardi, Darius Rucker",45.2,36.4
+"modern country rock",Rock,2,"Jon Pardi, Darius Rucker",46.0,34.7
+"filter house",Misc.,1,"SebastiAn",24.4,34.0
+"danish metal",Metal,1,"Volbeat",13.2,35.9
+"danish rock",Rock,1,"Volbeat",29.8,38.1
+"mongolian alternative",Alternative / Indie,1,"The HU",38.3,28.3
+"oriental metal",Metal,1,"The HU",21.5,31.5
+"la indie",Alternative / Indie,2,"Phoebe Bridgers, Cherry Glazerr",43.9,31.4
+"glam rock",Rock,1,"Elton John",30.5,42.3
+"mellow gold",Misc.,1,"Elton John",34.7,44.2
+"piano rock",Rock,1,"Elton John",44.0,33.8
+"chamber ensemble",Classical / Jazz,1,"Yo-Yo Ma",0,0
+"classical cello",Classical / Jazz,1,"Yo-Yo Ma",48.6,39.4
+"classical performance",Classical / Jazz,1,"Yo-Yo Ma",39.8,44.0
+"rock drums",Rock,1,"Chad Smith",18.1,42.0
+"alternative dance",Electronic,1,"Dave Gahan",33.4,34.4
+"black americana",Country / Folk,2,"Mickey Guyton, Darius Rucker",48.1,39.5
+"country pop",Pop,1,"Mickey Guyton",51.5,35.1
+"folk-pop",Pop,1,"Dermot Kennedy",54.9,34.1
+"irish pop",Pop,1,"Dermot Kennedy",51.8,33.4
+"uk pop",Pop,1,"Dermot Kennedy",57.5,31.9
+"classical piano",Classical / Jazz,1,"Igor Levit",45.1,40.9
+"russian classical piano",Classical / Jazz,1,"Igor Levit",41.0,41.4
+"chamber pop",Pop,1,"My Morning Jacket",40.1,35.7
+"jam band",Misc.,1,"My Morning Jacket",22.5,40.6
+"melancholia",Misc.,1,"My Morning Jacket",36.7,38.7
+"stomp and holler",Misc.,1,"My Morning Jacket",45.8,35.2
+"outlaw country",Country / Folk,1,"Chris Stapleton",24.8,41.9
+"south african pop",Pop,1,"TRESOR",40.5,31.0
+"south african pop dance",Pop,1,"TRESOR",40.9,30.2
+"rebel blues",Misc.,1,"Goodnight, Texas",31.6,31.2
+"bristol indie",Alternative / Indie,1,"IDLES",32.0,34.2
+"crank wave",Misc.,1,"IDLES",26.7,34.4
+"neo-rockabilly",Rock,1,"Imelda May",17.1,45.4
+"rockabilly",Rock,1,"Imelda May",28.6,46.0
+"indie surf",Alternative / Indie,1,"Cherry Glazerr",38.0,31.5
+"french indie pop",Pop,1,"Izïa",45.9,34.6
+"french pop",Pop,1,"Izïa",56.0,34.8
+"french rock",Rock,1,"Izïa",33.1,38.7
+"nouvelle chanson francaise",Misc.,1,"Izïa",50.4,39.4
+"afrofuturism",Misc.,1,"Kamasi Washington",34.0,33.4
+"contemporary jazz",Classical / Jazz,1,"Kamasi Washington",23.4,41.2
+"jazz",Classical / Jazz,1,"Kamasi Washington",25.5,41.0
+"jazz saxophone",Classical / Jazz,1,"Kamasi Washington",26.0,42.5
+"acoustic rock",Rock,1,"Rodrigo y Gabriela",26.3,36.0
+"world",Misc.,1,"Rodrigo y Gabriela",38.3,39.0
