@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+  --color-background: #060606;
+  --color-foreground: #fdfdfd;
+  --primary: #2E4D46;
+  --accent: #0acd9f;
+  --heading-font: "Rock Salt", cursive; 
+  --body-font: "Expletus Sans", sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--color-foreground);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 12vw;
+  font-family: var(--body-font);
+}
+
+header {
+  height: 100vh;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+h4 {
+  color: var(--primary);
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  margin-top: 8vh;
+}
+
+p {
+  width: 60%;
+  color: #696e6a;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: bolder;
+}

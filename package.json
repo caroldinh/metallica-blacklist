@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node": "^20.17.0",
+    "react-clear-cache": "^1.4.14"
+  }
+}
