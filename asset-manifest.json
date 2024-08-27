@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/caroldinh.github.io/metallica-blacklist/static/css/main.bf0e5363.css",
-    "main.js": "/caroldinh.github.io/metallica-blacklist/static/js/main.78a209f4.js",
-    "static/js/453.ae83ec72.chunk.js": "/caroldinh.github.io/metallica-blacklist/static/js/453.ae83ec72.chunk.js",
-    "static/media/background.md": "/caroldinh.github.io/metallica-blacklist/static/media/background.a5ee8750077a9965d79f.md",
-    "static/media/blacklist.md": "/caroldinh.github.io/metallica-blacklist/static/media/blacklist.79204cbd107a0cc35b14.md",
-    "static/media/conclusion.md": "/caroldinh.github.io/metallica-blacklist/static/media/conclusion.c749c31b6782dfb5cc37.md",
-    "static/media/reception.md": "/caroldinh.github.io/metallica-blacklist/static/media/reception.464d96ef2213e21ff733.md",
-    "static/media/reach.md": "/caroldinh.github.io/metallica-blacklist/static/media/reach.212f660a700b7580656d.md",
-    "index.html": "/caroldinh.github.io/metallica-blacklist/index.html",
-    "static/media/introduction.md": "/caroldinh.github.io/metallica-blacklist/static/media/introduction.8bae5372b18e08b336ef.md",
-    "main.bf0e5363.css.map": "/caroldinh.github.io/metallica-blacklist/static/css/main.bf0e5363.css.map",
-    "main.78a209f4.js.map": "/caroldinh.github.io/metallica-blacklist/static/js/main.78a209f4.js.map",
-    "453.ae83ec72.chunk.js.map": "/caroldinh.github.io/metallica-blacklist/static/js/453.ae83ec72.chunk.js.map"
+    "main.css": "/metallica-blacklist/static/css/main.bf0e5363.css",
+    "main.js": "/metallica-blacklist/static/js/main.69307376.js",
+    "static/js/453.ae83ec72.chunk.js": "/metallica-blacklist/static/js/453.ae83ec72.chunk.js",
+    "static/media/background.md": "/metallica-blacklist/static/media/background.a5ee8750077a9965d79f.md",
+    "static/media/blacklist.md": "/metallica-blacklist/static/media/blacklist.79204cbd107a0cc35b14.md",
+    "static/media/conclusion.md": "/metallica-blacklist/static/media/conclusion.c749c31b6782dfb5cc37.md",
+    "static/media/reception.md": "/metallica-blacklist/static/media/reception.464d96ef2213e21ff733.md",
+    "static/media/reach.md": "/metallica-blacklist/static/media/reach.212f660a700b7580656d.md",
+    "index.html": "/metallica-blacklist/index.html",
+    "static/media/introduction.md": "/metallica-blacklist/static/media/introduction.8bae5372b18e08b336ef.md",
+    "main.bf0e5363.css.map": "/metallica-blacklist/static/css/main.bf0e5363.css.map",
+    "main.69307376.js.map": "/metallica-blacklist/static/js/main.69307376.js.map",
+    "453.ae83ec72.chunk.js.map": "/metallica-blacklist/static/js/453.ae83ec72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf0e5363.css",
-    "static/js/main.78a209f4.js"
+    "static/js/main.69307376.js"
   ]
 }
