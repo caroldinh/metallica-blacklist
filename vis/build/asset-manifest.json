@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf0e5363.css",
-    "main.js": "/static/js/main.58d827fc.js",
-    "static/js/453.ae83ec72.chunk.js": "/static/js/453.ae83ec72.chunk.js",
-    "static/media/background.md": "/static/media/background.a5ee8750077a9965d79f.md",
-    "static/media/blacklist.md": "/static/media/blacklist.79204cbd107a0cc35b14.md",
-    "static/media/conclusion.md": "/static/media/conclusion.c749c31b6782dfb5cc37.md",
-    "static/media/reception.md": "/static/media/reception.464d96ef2213e21ff733.md",
-    "static/media/reach.md": "/static/media/reach.20228f9b0abe1bd73233.md",
-    "index.html": "/index.html",
-    "static/media/introduction.md": "/static/media/introduction.8bae5372b18e08b336ef.md",
-    "main.bf0e5363.css.map": "/static/css/main.bf0e5363.css.map",
-    "main.58d827fc.js.map": "/static/js/main.58d827fc.js.map",
-    "453.ae83ec72.chunk.js.map": "/static/js/453.ae83ec72.chunk.js.map"
+    "main.css": "/metallica-blacklist/static/css/main.bf0e5363.css",
+    "main.js": "/metallica-blacklist/static/js/main.69307376.js",
+    "static/js/453.ae83ec72.chunk.js": "/metallica-blacklist/static/js/453.ae83ec72.chunk.js",
+    "static/media/background.md": "/metallica-blacklist/static/media/background.a5ee8750077a9965d79f.md",
+    "static/media/blacklist.md": "/metallica-blacklist/static/media/blacklist.79204cbd107a0cc35b14.md",
+    "static/media/conclusion.md": "/metallica-blacklist/static/media/conclusion.c749c31b6782dfb5cc37.md",
+    "static/media/reception.md": "/metallica-blacklist/static/media/reception.464d96ef2213e21ff733.md",
+    "static/media/reach.md": "/metallica-blacklist/static/media/reach.212f660a700b7580656d.md",
+    "index.html": "/metallica-blacklist/index.html",
+    "static/media/introduction.md": "/metallica-blacklist/static/media/introduction.8bae5372b18e08b336ef.md",
+    "main.bf0e5363.css.map": "/metallica-blacklist/static/css/main.bf0e5363.css.map",
+    "main.69307376.js.map": "/metallica-blacklist/static/js/main.69307376.js.map",
+    "453.ae83ec72.chunk.js.map": "/metallica-blacklist/static/js/453.ae83ec72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf0e5363.css",
-    "static/js/main.58d827fc.js"
+    "static/js/main.69307376.js"
   ]
 }

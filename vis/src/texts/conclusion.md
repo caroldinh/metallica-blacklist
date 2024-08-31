@@ -1,6 +1,6 @@
 ## ALL THESE WORDS I DON’T JUST SAY
 
-Alright, alright, I’ve only been a Metallica megafan for a couple of years. Sad but true.
+I’ve only been a Metallica megafan for a couple of years. Sad but true.
 
 I've at least been familiar with the Black Album since high school. But I think I can pinpoint the exact moment when Metallica lured me into the snakepit once and for all: in 2022, *Stranger Things* Season 4 released on Netflix, and though I never watched the series, I came across their Instagram post months later showing James Hetfield decked out as Eddie Munson for Halloween.
 
