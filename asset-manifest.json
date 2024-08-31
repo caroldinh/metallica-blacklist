@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/metallica-blacklist/static/css/main.bf0e5363.css",
-    "main.js": "/metallica-blacklist/static/js/main.69307376.js",
-    "static/js/453.ae83ec72.chunk.js": "/metallica-blacklist/static/js/453.ae83ec72.chunk.js",
-    "static/media/background.md": "/metallica-blacklist/static/media/background.a5ee8750077a9965d79f.md",
-    "static/media/blacklist.md": "/metallica-blacklist/static/media/blacklist.79204cbd107a0cc35b14.md",
-    "static/media/conclusion.md": "/metallica-blacklist/static/media/conclusion.c749c31b6782dfb5cc37.md",
+    "main.css": "/metallica-blacklist/static/css/main.c7a441a8.css",
+    "main.js": "/metallica-blacklist/static/js/main.96b209a0.js",
+    "static/js/453.a7fb1d74.chunk.js": "/metallica-blacklist/static/js/453.a7fb1d74.chunk.js",
+    "static/media/background.md": "/metallica-blacklist/static/media/background.d4dc3f21c357745e05ca.md",
+    "static/media/blacklist.md": "/metallica-blacklist/static/media/blacklist.f6dcc7a4aa481f2fc316.md",
+    "static/media/reach.md": "/metallica-blacklist/static/media/reach.af7422316d805360f715.md",
+    "static/media/conclusion.md": "/metallica-blacklist/static/media/conclusion.f0dc2fb1328adeee6821.md",
     "static/media/reception.md": "/metallica-blacklist/static/media/reception.464d96ef2213e21ff733.md",
-    "static/media/reach.md": "/metallica-blacklist/static/media/reach.212f660a700b7580656d.md",
+    "static/media/generations.md": "/metallica-blacklist/static/media/generations.f79db068d26f3f522d7c.md",
     "index.html": "/metallica-blacklist/index.html",
     "static/media/introduction.md": "/metallica-blacklist/static/media/introduction.8bae5372b18e08b336ef.md",
-    "main.bf0e5363.css.map": "/metallica-blacklist/static/css/main.bf0e5363.css.map",
-    "main.69307376.js.map": "/metallica-blacklist/static/js/main.69307376.js.map",
-    "453.ae83ec72.chunk.js.map": "/metallica-blacklist/static/js/453.ae83ec72.chunk.js.map"
+    "static/media/artists.md": "/metallica-blacklist/static/media/artists.b5c017dc37b85375b059.md",
+    "main.c7a441a8.css.map": "/metallica-blacklist/static/css/main.c7a441a8.css.map",
+    "main.96b209a0.js.map": "/metallica-blacklist/static/js/main.96b209a0.js.map",
+    "453.a7fb1d74.chunk.js.map": "/metallica-blacklist/static/js/453.a7fb1d74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf0e5363.css",
-    "static/js/main.69307376.js"
+    "static/css/main.c7a441a8.css",
+    "static/js/main.96b209a0.js"
   ]
 }
