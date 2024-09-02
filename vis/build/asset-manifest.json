@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/metallica-blacklist/static/css/main.c7a441a8.css",
-    "main.js": "/metallica-blacklist/static/js/main.96b209a0.js",
+    "main.css": "/metallica-blacklist/static/css/main.9f2dbbe2.css",
+    "main.js": "/metallica-blacklist/static/js/main.a19bc012.js",
     "static/js/453.a7fb1d74.chunk.js": "/metallica-blacklist/static/js/453.a7fb1d74.chunk.js",
     "static/media/background.md": "/metallica-blacklist/static/media/background.d4dc3f21c357745e05ca.md",
     "static/media/blacklist.md": "/metallica-blacklist/static/media/blacklist.f6dcc7a4aa481f2fc316.md",
@@ -12,12 +12,12 @@
     "index.html": "/metallica-blacklist/index.html",
     "static/media/introduction.md": "/metallica-blacklist/static/media/introduction.8bae5372b18e08b336ef.md",
     "static/media/artists.md": "/metallica-blacklist/static/media/artists.b5c017dc37b85375b059.md",
-    "main.c7a441a8.css.map": "/metallica-blacklist/static/css/main.c7a441a8.css.map",
-    "main.96b209a0.js.map": "/metallica-blacklist/static/js/main.96b209a0.js.map",
+    "main.9f2dbbe2.css.map": "/metallica-blacklist/static/css/main.9f2dbbe2.css.map",
+    "main.a19bc012.js.map": "/metallica-blacklist/static/js/main.a19bc012.js.map",
     "453.a7fb1d74.chunk.js.map": "/metallica-blacklist/static/js/453.a7fb1d74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7a441a8.css",
-    "static/js/main.96b209a0.js"
+    "static/css/main.9f2dbbe2.css",
+    "static/js/main.a19bc012.js"
   ]
 }

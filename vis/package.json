@@ -1,7 +1,7 @@
 {
   "name": "vis",
-  "homepage": "https://caroldinh.github.io/metallica-blacklist",
   "version": "0.1.0",
+  "homepage": "https://caroldinh.github.io/metallica-blacklist/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

@@ -9,7 +9,7 @@ export const RadarCompare = () => {
     const [charts, setCharts] = useState([]);
     const [songData, setSongData] = useState([])
     const [songName, setSongName] = useState("");
-    const [artist, setArtist] = useState("Metallica");
+    const [artist, setArtist] = useState("");
     const [artistIndex, setArtistIndex] = useState(0);
     const [original, setOriginal] = useState({});
 
@@ -25,12 +25,13 @@ export const RadarCompare = () => {
       let newData = SONG_FEATURES.filter((song) => song.Original_Title === currSong);
       setSongData(newData);
 
+      if (songName !== "" && artist !== "")
+        newData = newData.filter((song) => song.Artists === artist);
+
       let dataSet = anychart.data.set(
         FEATURE_KEYS.map((key) => 
           [key].concat(newData.map((song) => song[key])))
       );
-
-      console.log(dataSet)
 
       let chart = anychart.radar();
       chart.title(
@@ -45,7 +46,12 @@ export const RadarCompare = () => {
         })
       
       // set chart yScale settings
-      chart.yScale().minimum(0).maximumGap(0).ticks().interval(0.2);
+      chart.yScale().minimum(0).maximumGap(0).maximum(1).ticks().interval(0.2);
+      chart.yAxis().labels()
+        .fontFamily("Expletus Sans")
+        .fontColor(colors.FOREGROUND)
+        .fontSize(16)
+        .enabled(songName !== "");
       chart.yGrid().stroke({
         color: colors.FOREGROUND,
         thickness: 1,
@@ -105,24 +111,21 @@ export const RadarCompare = () => {
     useEffect(() => {
 
       if (songName === "") {
+
+        setArtist("");
+        setArtistIndex(0);
         SONGS.forEach((currSong) => {
           plotSong(currSong);
         })
+
       } else {
         plotSong(songName);
         songData.forEach((artist, index) => {
-          if (index === 0) {
-            setArtist(artist);
-          }
           if (artist.Artists === "Metallica") {
-            console.log(songData[index]);
             setOriginal(songData[index]);
           }
         })
       }
-
-      setArtist("");
-      setArtistIndex(0);
 
       return () => {
         charts.forEach((chart) => {
@@ -131,7 +134,7 @@ export const RadarCompare = () => {
         setCharts([]);
       }
 
-    }, [songName]);
+    }, [songName, artist]);
 
     useEffect(() => {
       console.log(artist);
@@ -141,9 +144,6 @@ export const RadarCompare = () => {
         }
       })
     }, [artist])
-
-    console.log(songData[artistIndex]);
-    console.log(original)
 
     return(
       <>
@@ -186,17 +186,24 @@ export const RadarCompare = () => {
                 display: songName === ""
               }}></div>
               <div id="song-info">
-                <select value={artist} defaultValue="Metallica" onChange={(e) => setArtist(e.target.value)}>
+                <select value={artist} defaultValue="" onChange={(e) => setArtist(e.target.value)}>
+                    <option value={""}>Select an artist</option>
                   {songData.map((song) => 
                     <option value={song.Artists}>{song.Artists}</option>)
                   }
                 </select>
-                {FEATURE_KEYS.map((feature) => 
+                {artist === "" ? 
+                <>
+                  <p>Select an artist to view individual stats.</p>
+                </>
+                :
+                FEATURE_KEYS.map((feature) => 
                   <>
                     <p>{feature}: {songData[artistIndex][feature]}</p>
                     <p>{original[feature]-songData[artistIndex][feature]} from original</p>
                   </>
-                )}
+                )
+              }
               </div>
             </div>
           </>
