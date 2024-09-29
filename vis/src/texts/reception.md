@@ -3,11 +3,14 @@
 *The Metallica Blacklist* is a study in what makes a good cover—a question that is highly individual and subjective, but perhaps one that professional reviews of the compilation can help us answer. I parsed through ten reviews to see how critics articulated what worked and what didn’t, arriving on the following categories:
 
 
+* **PROFICIENCY:** 
 * **COMPOSITION:** Did a structural element of the cover stand out?
 * **INTERPRETATION:** Emotion
+* **INSTRUMENTATION**
 * **REPUTATION:**
-* **MEMORABILITY:** Even if the reviewer left no other editorial, was the piece memorable enough to have been mentioned at all?
-
+* **GENRE:** 
+* **LOYALTY:** 
+* **MEMORABILITY:** Did this particular cover stand out (especially amongst others of the same song?)
 
 For each mention of any cover in a review, I appended a score—+1 for a positive or neutral mention, -1 for a negative mention—to see what aspects of a cover were most praised or most criticized.
 

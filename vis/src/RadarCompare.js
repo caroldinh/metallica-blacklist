@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import AnyChart from "anychart-react";
 import anychart from 'anychart';
 import { SONG_FEATURES } from "./data/Features";
 import { useThemeColors } from "./colors";
@@ -26,7 +25,7 @@ export const RadarCompare = () => {
       setSongData(newData);
 
       if (songName !== "" && artist !== "")
-        newData = newData.filter((song) => song.Artists === artist);
+        newData = [original].concat(newData.filter((song) => song.Artists === artist));
 
       let dataSet = anychart.data.set(
         FEATURE_KEYS.map((key) => 
@@ -91,11 +90,13 @@ export const RadarCompare = () => {
           .name(`${data.Artists}`)
           .stroke({
             color: data.Is_Original ? colors.FOREGROUND : colors.ACCENT,
-            thickness: data.Is_Original ? 3 : 2,
+            thickness: data.Is_Original ? 
+            (artist !== "" ? 2 : 3) : 2,
+            dash: data.Is_Original && artist !== "" ? "5 3" : "0"
           })
           .fill({
             color: data.Is_Original ? colors.FOREGROUND : colors.ACCENT,
-            opacity: 0.15,
+            opacity: (artist != "" && data.Is_Original ? 0 : 0.15),
           })
           series.tooltip().format(`${data.Title} by ${data.Artists}: {%Value}`);
           //series.markers().enabled(true).type('circle').size(3);
@@ -181,29 +182,36 @@ export const RadarCompare = () => {
               <h3>{songName}</h3>
               <a id="back-to-all" onClick={() => setSongName("")}>Back to all songs</a>
             </div>
+            <select value={artist} defaultValue="" onChange={(e) => setArtist(e.target.value)}>
+                <option value={""}>Select an artist</option>
+              {songData.map((song) => 
+                <option value={song.Artists}>{song.Artists}</option>)
+              }
+            </select>
             <div id="radar-container">
               <div id={`${songName}-chart`} className="full-radar-chart" style={{
                 display: songName === ""
               }}></div>
               <div id="song-info">
-                <select value={artist} defaultValue="" onChange={(e) => setArtist(e.target.value)}>
-                    <option value={""}>Select an artist</option>
-                  {songData.map((song) => 
-                    <option value={song.Artists}>{song.Artists}</option>)
-                  }
-                </select>
                 {artist === "" ? 
                 <>
                   <p>Select an artist to view individual stats.</p>
                 </>
                 :
+                <>
+                <h2>{songData[artistIndex].Title}</h2>
+                <h4>by {songData[artistIndex].Artists}</h4>
+                {
                 FEATURE_KEYS.map((feature) => 
                   <>
                     <p>{feature}: {songData[artistIndex][feature]}</p>
-                    <p>{original[feature]-songData[artistIndex][feature]} from original</p>
+                    <p>{Math.round((songData[artistIndex][feature]-original[feature]) * 1000) / 1000} {songData[artistIndex][feature] >= original[feature] ? "more" : "less"} than
+                       original</p>
                   </>
                 )
-              }
+                }
+                </>
+                }
               </div>
             </div>
           </>

@@ -10,7 +10,9 @@ import Generations from './texts/generations.md';
 import Conclusion from './texts/conclusion.md';
 import { Markdown, LinkRenderer } from './Markdown.tsx';
 import { RadarCompare } from './RadarCompare';
+import { WorldMap } from './Map';
 import './App.css';
+import { ReceptionColChart } from './ReceptionColChart.js';
 
 const App = () => {
 
@@ -44,14 +46,20 @@ const App = () => {
         <h4>A retrospective on the Metallica Blacklist</h4>
       </header>
 
+      {/*
       <Markdown children={backgroundText}></Markdown>
       <Markdown children={blacklistText} components={{ a: LinkRenderer}}></Markdown>
       <RadarCompare/>
+      */}
       <Markdown children={receptionText} components={{ a: LinkRenderer}}></Markdown>
+      <ReceptionColChart />
+      {/*
       <Markdown children={artistsText} components={{ a: LinkRenderer}}></Markdown>
       <Markdown children={reachText} components={{ a: LinkRenderer}}></Markdown>
+      <WorldMap/>
       <Markdown children={generationsText} components={{ a: LinkRenderer}}></Markdown>
       <Markdown children={conclusionText}></Markdown>
+      */}
 
       <p className="footer">Made with 🤘🏼 by Carol Dinh</p>
 
