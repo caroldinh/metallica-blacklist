@@ -25,6 +25,25 @@ const App = () => {
   const [artistsText, setArtistsText] = useState('')
   const [generationsText, setGenerationsText] = useState('')
 
+  const [unforgivenIsPlaying, setUnforgivenIsPlaying] = useState(true);
+
+  const handleScroll = () => {
+      const position = window.scrollY;
+      if (unforgivenIsPlaying && position > 1080) {
+        document.getElementById("unforgiven-audio").volume = Math.max(0, (100 - 0.1 * (position - 1080)) / 100);
+      } else if (unforgivenIsPlaying && position > 2160) {
+        document.getElementById("unforgiven-audio").pause();
+      }
+  };
+
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
+
+
 	useEffect(() => {
 		fetch(Introduction).then(res => res.text()).then(text => setIntroductionText(text))
 		fetch(Background).then(res => res.text()).then(text => setBackgroundText(text))
@@ -34,11 +53,11 @@ const App = () => {
 		fetch(Artists).then(res => res.text()).then(text => setArtistsText(text))
 		fetch(Generations).then(res => res.text()).then(text => setGenerationsText(text))
 		fetch(Conclusion).then(res => res.text()).then(text => setConclusionText(text))
-	})
+	}, [])
 
   return (
     <div className="App">
-      <audio id="audio" loop autoPlay> 
+      <audio id="unforgiven-audio" loop autoPlay> 
         <source src="/music/the_unforgiven.mp3" type="audio/mpeg"/>
       </audio>
       <header className="App-header">
@@ -46,11 +65,9 @@ const App = () => {
         <h4>A retrospective on the Metallica Blacklist</h4>
       </header>
 
-      {/*
       <Markdown children={backgroundText}></Markdown>
       <Markdown children={blacklistText} components={{ a: LinkRenderer}}></Markdown>
       <RadarCompare/>
-      */}
       <Markdown children={receptionText} components={{ a: LinkRenderer}}></Markdown>
       <ReceptionColChart />
       {/*

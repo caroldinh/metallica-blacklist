@@ -218,6 +218,21 @@ h3 {
 }
 
 #reception-container {
-  width: 100%;
+  width: 80%;
+  display: block;
   height: 90vh;
+}
+
+#reception-scrollview {
+  display: flex;
+  flex-direction: row;
+}
+
+#reception-key {
+  width: 20%;
+  padding: 16px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: anywhere;
 }

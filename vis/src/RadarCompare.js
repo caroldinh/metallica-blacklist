@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import anychart from 'anychart';
 import { SONG_FEATURES } from "./data/Features";
+import { ALL_SONGS } from "./data/AllSongs";
 import { useThemeColors } from "./colors";
 
 export const RadarCompare = () => {
@@ -11,6 +12,7 @@ export const RadarCompare = () => {
     const [artist, setArtist] = useState("");
     const [artistIndex, setArtistIndex] = useState(0);
     const [original, setOriginal] = useState({});
+    const [previewURL, setPreviewURL] = useState("");
 
     const FEATURE_KEYS = ["Danceability", "Energy", "Speechiness", "Acousticness", "Instrumentalness", "Liveness", "Valence"];
     const SONGS = new Set(
@@ -33,6 +35,7 @@ export const RadarCompare = () => {
       );
 
       let chart = anychart.radar();
+      chart.animation(true);
       chart.title(
         currSong
       );
@@ -144,6 +147,13 @@ export const RadarCompare = () => {
           setArtistIndex(index);
         }
       })
+      let indexFromAll = 0;
+      SONG_FEATURES.forEach((song, index) => {
+        if (song.Original_Title === songName && song.Artists === artist) {
+          indexFromAll = index;
+        }
+      })
+      setPreviewURL(ALL_SONGS[indexFromAll].preview_url);
     }, [artist])
 
     return(
@@ -201,6 +211,10 @@ export const RadarCompare = () => {
                 <>
                 <h2>{songData[artistIndex].Title}</h2>
                 <h4>by {songData[artistIndex].Artists}</h4>
+                <span class="play-button" onClick={() => {
+                  document.getElementById("radar-preview-player").play();
+                }}>▶</span>
+                <audio id="radar-preview-player" src={previewURL}></audio>
                 {
                 FEATURE_KEYS.map((feature) => 
                   <>
