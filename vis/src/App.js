@@ -13,6 +13,7 @@ import { RadarCompare } from './RadarCompare';
 import { WorldMap } from './Map';
 import './App.css';
 import { ReceptionColChart } from './ReceptionColChart.js';
+import { GenreDemographics } from './GenreDemographics.js';
 
 const App = () => {
 
@@ -70,13 +71,12 @@ const App = () => {
       <RadarCompare/>
       <Markdown children={receptionText} components={{ a: LinkRenderer}}></Markdown>
       <ReceptionColChart />
-      {/*
       <Markdown children={artistsText} components={{ a: LinkRenderer}}></Markdown>
+      <GenreDemographics />
       <Markdown children={reachText} components={{ a: LinkRenderer}}></Markdown>
       <WorldMap/>
       <Markdown children={generationsText} components={{ a: LinkRenderer}}></Markdown>
       <Markdown children={conclusionText}></Markdown>
-      */}
 
       <p className="footer">Made with 🤘🏼 by Carol Dinh</p>
 

@@ -62,7 +62,6 @@ export const ReceptionColChart = () => {
 
       SONG_RECEPTION.forEach((review) => {
         let trackNum = parseInt(review.Track) - 1;
-        let mentions = 0;
         Object.keys(song_scores[trackNum]).forEach(category => {
           if (review.Quote.indexOf(`<${category}>`) >= 0) {
             mentionsList[trackNum] += 1;
@@ -90,7 +89,16 @@ export const ReceptionColChart = () => {
           const index = SONG_FEATURES.indexOf(song);
           const values_pos = Object.values(songScores[index]).map(value => value.pos);
           const values_neg = Object.values(songScores[index]).map(value => value.neg);
-          return [song.Artists, ...values_pos, ...values_neg]
+
+          const formatArtists = (input) => {
+            const parts = input.split(',');
+            if (parts.length <= 2) {
+              return input; 
+            }
+            return parts.slice(0, 2).join(',') + "...";
+          }
+
+          return [formatArtists(song.Artists), song.Artists, ...values_pos, ...values_neg]
         })
 
         let chart_data = anychart.data.set(formatted_data);
@@ -102,13 +110,13 @@ export const ReceptionColChart = () => {
         Object.keys(REVIEW_CATEGORY_BASE).forEach(category => {
 
           let series_pos = chart_data.mapAs({x: 0, value: 
-            Object.keys(REVIEW_CATEGORY_BASE).indexOf(category) + 1
+            Object.keys(REVIEW_CATEGORY_BASE).indexOf(category) + 2
           })
 
           let series_neg = chart_data.mapAs({x: 0, value: 
             Object.keys(REVIEW_CATEGORY_BASE).indexOf(category) +
             Object.keys(REVIEW_CATEGORY_BASE).length
-            + 1
+            + 2
           })
 
           let series_pos_column = chart.column(series_pos)
@@ -120,15 +128,17 @@ export const ReceptionColChart = () => {
         });
 
         // turn on legend
-        chart.legend().enabled(true).fontSize(13).padding([0, 0, 20, 0]);
+        chart.legend().enabled(false)
         // set yAxis labels formatter
-        chart.yAxis().labels().format('{%Value}{groupsSeparator: }');
+        chart.yAxis().labels().enabled(true).format('{%Value}{groupsSeparator: }');
+        chart.xAxis().labels().rotation(90);
+        chart.xAxis().overlapMode("allowOverlap");
 
         chart.background().fill(colors.BACKGROUND)
 
         // set titles for axes
-        chart.xAxis().title('Reviews');
-        chart.yAxis().title('# of Mentions');
+        chart.xAxis().title('Artists');
+        chart.yAxis().title('# of Mentions in Critic Reviews');
 
         // set interactivity hover
         chart.interactivity().hoverMode('by-x');
