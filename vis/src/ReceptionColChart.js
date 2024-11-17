@@ -13,6 +13,8 @@ export const ReceptionColChart = () => {
     const [mentions, setMentions] = useState(undefined);
     const [songScores, setSongScores] = useState(undefined);
     const [songsSorted, setSongsSorted] = useState([...SONG_FEATURES.slice(0, 53)]);
+    const [currTrack, setCurrTrack] = useState(-1);
+    const [reviewsToDisplay, setReviewsToDisplay] = useState([]);
 
     const REVIEW_CATEGORY_BASE = {
       proficiency: {
@@ -51,6 +53,14 @@ export const ReceptionColChart = () => {
 
     const colors = useThemeColors();
 
+    const formatArtists = (input) => {
+      const parts = input.split(',');
+      if (parts.length <= 2) {
+        return input; 
+      }
+      return parts.slice(0, 2).join(',') + "...";
+    }
+
     useEffect(() => {
 
       let song_scores = ALL_SONGS
@@ -85,18 +95,10 @@ export const ReceptionColChart = () => {
         currChart.dispose();
 
       if (songScores) {
-        const formatted_data = songsSorted.slice(0, 53).map(song => {
+        const formatted_data = songsSorted.slice(0, 53).map((song, songIndex) => {
           const index = SONG_FEATURES.indexOf(song);
           const values_pos = Object.values(songScores[index]).map(value => value.pos);
           const values_neg = Object.values(songScores[index]).map(value => value.neg);
-
-          const formatArtists = (input) => {
-            const parts = input.split(',');
-            if (parts.length <= 2) {
-              return input; 
-            }
-            return parts.slice(0, 2).join(',') + "...";
-          }
 
           return [formatArtists(song.Artists), song.Artists, ...values_pos, ...values_neg]
         })
@@ -107,7 +109,7 @@ export const ReceptionColChart = () => {
         chart.animation(true);
         chart.yScale().stackMode('value');
 
-        Object.keys(REVIEW_CATEGORY_BASE).forEach(category => {
+        Object.keys(REVIEW_CATEGORY_BASE).forEach((category, index) => {
 
           let series_pos = chart_data.mapAs({x: 0, value: 
             Object.keys(REVIEW_CATEGORY_BASE).indexOf(category) + 2
@@ -124,6 +126,19 @@ export const ReceptionColChart = () => {
 
           let series_neg_column = chart.column(series_neg)
           series_neg_column.name(category + " (-)")
+
+          series_pos_column.normal().fill(colors[Object.keys(colors)[index]]);
+          series_neg_column.normal().fill(`${colors[Object.keys(colors)[index]]} 0.25`);
+          series_pos_column.normal().stroke(colors.FOREGROUND, 1);
+          series_neg_column.normal().stroke(colors.FOREGROUND, 1);
+
+          series_pos_column.listen("click", (e) => {
+            setCurrTrack(SONG_FEATURES.map(song => formatArtists(song.Artists)).indexOf(e.target.me.name));
+          })
+
+          series_neg_column.listen("click", (e) => {
+            setCurrTrack(SONG_FEATURES.map(song => formatArtists(song.Artists)).indexOf(e.target.me.name));
+          })
 
         });
 
@@ -143,8 +158,10 @@ export const ReceptionColChart = () => {
         // set interactivity hover
         chart.interactivity().hoverMode('by-x');
 
-        chart.tooltip().valuePrefix('$').displayMode('union');
+        chart.barsPadding(0);
+        chart.barGroupsPadding(0.2);
 
+        chart.tooltip().displayMode('union')
         // set container id for the chart
         chart.container('reception-container');
 
@@ -190,21 +207,62 @@ export const ReceptionColChart = () => {
       
     }, [sortBy])
 
+    useEffect(() => {
+
+      if (currTrack >= 0) {
+        setReviewsToDisplay(SONG_RECEPTION.filter(review => parseInt(review.Track) - 1 === currTrack));
+      } else {
+        setReviewsToDisplay([]);
+      }
+
+    }, [currTrack]);
+
     return(
-      <>
-        <select value={sortBy} defaultValue="popularity_asc" onChange={(e) => setSortBy(e.target.value)}>
+      <div>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: '100vw'}}>
+          <p id="reception-title">Critic Reception of Tracks on the Blacklist</p>
+          <p id="reception-subtitle">Click on a column to see what reviewers had to say!</p>
+        <select class="reception-select" value={sortBy} defaultValue="popularity_asc" onChange={(e) => setSortBy(e.target.value)}>
             <option value="">Sort songs by...</option>
-            <option value="mentions_asc">Critical mentions (ascending)</option>
-            <option value="mentions_desc">Critical mentions (descending)</option>
-            <option value="popularity_asc">Popularity (ascending)</option>
-            <option value="popularity_desc">Popularity (descending)</option>
+            <option value="mentions_asc"># Mentions in Reviews</option>
+            <option value="popularity_asc">Artist popularity</option>
         </select>
+        </div>
         <div id="reception-scrollview">
-          <div id="reception-key">
-            <h3>adsfj;asldkjfas;dk</h3>
+          <div id="reception-key" style={{ display: currTrack === -1 ? "none" : "block"}}>
+            <p class="close-reception" onClick={() => { setCurrTrack(-1) }}>×</p>
+            <h3>{currTrack >= 0 && SONG_FEATURES[currTrack].Title}</h3>
+            <h4>by {currTrack >= 0 && SONG_FEATURES[currTrack].Artists}</h4>
+            {reviewsToDisplay.map(review => {
+              return (
+                <div id="reception-quote">
+                  <p dangerouslySetInnerHTML={{__html: 
+                    review.Quote
+                      .replace("<proficiency>", "<span class='proficiency'>")
+                      .replace("</proficiency>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} proficiency)</b>`)
+                      .replace("<composition>", "<span class='composition'>")
+                      .replace("</composition>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} composition)</b>`)
+                      .replace("<interpretation>", "<span class='interpretation'>")
+                      .replace("</interpretation>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} interpretation)</b>`)
+                      .replace("<instrumentation>", "<span class='instrumentation'>")
+                      .replace("</instrumentation>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} instrumentation)</b>`)
+                      .replace("<reputation>", "<span class='reputation'>")
+                      .replace("</reputation>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} reputation)</b>`)
+                      .replace("<genre>", "<span class='genre'>")
+                      .replace("</genre>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} genre)</b>`)
+                      .replace("<loyalty>", "<span class='loyalty'>")
+                      .replace("</loyalty>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} loyalty)</b>`)
+                      .replace("<memorability>", "<span class='memorability'>")
+                      .replace("</memorability>", `</span> <b>(${review.Sentiment == "1" ? "+1" : "-1"} memorability)</b>`)
+                  }}>
+                  </p>
+                  <a class="quote-attr" href={review.URL} target="_blank">({review.Author} via <i>{review.Platform})</i></a>
+                </div>
+              )
+            })}
           </div>
           <div id="reception-container"></div>
         </div>
-      </>
+      </div>
     )
 };

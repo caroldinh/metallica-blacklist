@@ -156,7 +156,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Max Morin",
     Platform: "Metal Injection",
     URL: "https://metalinjection.net/reviews/metallica-the-metallica-blacklist",
-    Quote: "<memorability>Don't miss<memorability> more covers by ... Weezer",
+    Quote: "<memorability>Don't miss</memorability> more covers by ... Weezer",
     Sentiment: "1"
   },
   {

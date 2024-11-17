@@ -214,7 +214,7 @@ export const RadarCompare = () => {
                 <span class="play-button" onClick={() => {
                   document.getElementById("radar-preview-player").play();
                 }}>▶</span>
-                <audio id="radar-preview-player" src={previewURL}></audio>
+                <audio id="radar-preview-player" src={previewURL} autoPlay></audio>
                 {
                 FEATURE_KEYS.map((feature) => 
                   <>
