@@ -119,8 +119,8 @@ strong {
 }
 
 .full-radar-chart {
-  height: 80vh;
-  width: 60%;
+  height: 70vh;
+  width: 100%;
 }
 
 .anychart-credits-text {
@@ -223,6 +223,22 @@ h3 {
   text-align: left;
 }
 
+#song-info p {
+  margin: unset;
+  width: unset;
+  padding: unset;
+}
+
+#song-feature {
+  margin-top: 16px !important;
+  color: var(--color-foreground)
+}
+
+#compare-with-metallica {
+  color: var(--paragraph);
+  font-size: 16px;
+}
+
 #back-to-all {
   width: 100%;
   text-align: center;
@@ -292,6 +308,7 @@ h3 {
 
 #reception-key h3 {
   font-size: 24px;
+  line-height: 125%;
 }
 
 #reception-key h4 {
@@ -359,6 +376,7 @@ h3 {
 
 #reception-quote .instrumentation {
   background-color: var(--accent);
+  color: var(--color-background);
 }
 
 #reception-quote .reputation {
@@ -369,12 +387,18 @@ h3 {
   background-color: var(--theme-1);
 }
 
-#reception-quote .proficiency {
+#reception-quote .loyalty {
   background-color: var(--theme-2);
+  color: var(--color-background);
 }
 
-#reception-quote .proficiency {
+#reception-quote .memorability {
   background-color: var(--theme-3);
+}
+
+#reception-quote .uniqueness {
+  background-color: var(--theme-4);
+  color: var(--color-background);
 }
 
 .reception-select {

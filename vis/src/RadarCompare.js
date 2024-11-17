@@ -192,16 +192,18 @@ export const RadarCompare = () => {
               <h3>{songName}</h3>
               <a id="back-to-all" onClick={() => setSongName("")}>Back to all songs</a>
             </div>
-            <select value={artist} defaultValue="" onChange={(e) => setArtist(e.target.value)}>
-                <option value={""}>Select an artist</option>
-              {songData.map((song) => 
-                <option value={song.Artists}>{song.Artists}</option>)
-              }
-            </select>
             <div id="radar-container">
-              <div id={`${songName}-chart`} className="full-radar-chart" style={{
-                display: songName === ""
-              }}></div>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flexGrow: 1}}>
+                  <div id={`${songName}-chart`} className="full-radar-chart" style={{
+                    display: songName === ""
+                  }}></div>
+                  <select value={artist} defaultValue="" onChange={(e) => setArtist(e.target.value)}>
+                      <option value={""}>Select an artist</option>
+                    {songData.map((song) => 
+                      <option value={song.Artists}>{song.Artists}</option>)
+                    }
+                  </select>
+                </div>
               <div id="song-info">
                 {artist === "" ? 
                 <>
@@ -211,18 +213,15 @@ export const RadarCompare = () => {
                 <>
                 <h2>{songData[artistIndex].Title}</h2>
                 <h4>by {songData[artistIndex].Artists}</h4>
-                <span class="play-button" onClick={() => {
-                  document.getElementById("radar-preview-player").play();
-                }}>▶</span>
-                <audio id="radar-preview-player" src={previewURL} autoPlay></audio>
+                <audio id="radar-preview-player" src={previewURL} autoPlay loop></audio>
                 {
-                FEATURE_KEYS.map((feature) => 
-                  <>
-                    <p>{feature}: {songData[artistIndex][feature]}</p>
-                    <p>{Math.round((songData[artistIndex][feature]-original[feature]) * 1000) / 1000} {songData[artistIndex][feature] >= original[feature] ? "more" : "less"} than
-                       original</p>
-                  </>
-                )
+                  FEATURE_KEYS.map((feature) => 
+                    <>
+                      <p id="song-feature">{feature}: {songData[artistIndex][feature]}</p>
+                      {artist !== "Metallica" && <p id="compare-with-metallica">{songData[artistIndex][feature] >= original[feature] ? "+" : ""}{Math.round((songData[artistIndex][feature]-original[feature]) * 1000) / 1000} from
+                        original</p>}
+                    </>
+                  )
                 }
                 </>
                 }

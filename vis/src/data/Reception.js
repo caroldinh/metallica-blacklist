@@ -132,7 +132,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Brad Sanders",
     Platform: "Pitchfork",
     URL: "https://pitchfork.com/reviews/albums/metallica-the-metallica-blacklist/",
-    Quote: "The spirit of the release is better captured by the thumping, maximalist pop of Rina Sawayama's \"Enter Sandman\"",
+    Quote: "The spirit of the release is better captured by the <genre>thumping, maximalist pop</genre> of Rina Sawayama's \"Enter Sandman\"",
     Sentiment: "1"
   },
   {
@@ -164,7 +164,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Mark Beaumont",
     Platform: "NME",
     URL: "https://www.nme.com/reviews/album/various-artists-the-metallica-blacklist-review-black-album-3042648",
-    Quote: "Weezer's <instrumentation>power-chord overload</instrumentation",
+    Quote: "Weezer's <instrumentation>power-chord overload</instrumentation>",
     Sentiment: "1"
   },
   {
@@ -500,7 +500,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Max Morin",
     Platform: "Metal Injection",
     URL: "https://metalinjection.net/reviews/metallica-the-metallica-blacklist",
-    Quote: "Diet Cig <interpretation>sounds like Phoebe Bridgers if she listened to more Wolf Alice</interpretation>, but somehow not as cool as that should be.",
+    Quote: "Diet Cig sounds like Phoebe Bridgers if she listened to more Wolf Alice, but <interpretation>somehow not as cool as that should be.</interpretation>",
     Sentiment: "-1"
   },
   {
@@ -636,7 +636,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Joe Daly",
     Platform: "Metal Hammer",
     URL: "https://www.loudersound.com/reviews/the-metallica-blacklist-thrash-icons-landmark-album-gets-covered-across-the-musical-spectrum",
-    Quote: "Chase & Status bring in Background Gee for Wherever I May Roam ... but [leave] listeners waiting for a huge payoff that never arrives.",
+    Quote: "Chase & Status bring in Background Gee for Wherever I May Roam ... but <composition>[leave] listeners waiting for a huge payoff that never arrives.</composition>",
     Sentiment: "-1"
   },
   {
@@ -644,7 +644,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Mark Beaumont",
     Platform: "NME",
     URL: "https://www.nme.com/reviews/album/various-artists-the-metallica-blacklist-review-black-album-3042648",
-    Quote: "[T]here's a refreshing stretch where ... Chase & Status ... remould the eastern textures of 'Wherever I May Roam' into </genre>modernist dancefloor destroyers</genre>",
+    Quote: "[T]here's a refreshing stretch where ... Chase & Status ... remould the eastern textures of 'Wherever I May Roam' into <genre>modernist dancefloor destroyers</genre>",
     Sentiment: "1"
   },
   {
@@ -804,8 +804,8 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Fred Thomas",
     Platform: "AllMusic",
     URL: "https://www.allmusic.com/album/the-metallica-blacklist-mw0003548306",
-    Quote: "a <uniqueness><uniqueness>staggering 12 versions</uniqueness></uniqueness> of \"Nothing Else Matters\" by everyone from <reputation>Miley Cyrus (appearing along with Yo-Yo Ma, Elton John, and other friends)</reputation> ... and more.",
-    Sentiment: "1"
+    Quote: "a <uniqueness>staggering 12 versions</uniqueness> of \"Nothing Else Matters\" by everyone from <reputation>Miley Cyrus (appearing along with Yo-Yo Ma, Elton John, and other friends)</reputation> ... and more.",
+    Sentiment: "-1"
   },
   {
     Track: "36",
@@ -892,8 +892,8 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Fred Thomas",
     Platform: "AllMusic",
     URL: "https://www.allmusic.com/album/the-metallica-blacklist-mw0003548306",
-    Quote: "a <uniqueness><uniqueness>staggering 12 versions</uniqueness></uniqueness> of \"Nothing Else Matters\" by everyone from ... My Morning Jacket ... and more.",
-    Sentiment: "1"
+    Quote: "a <uniqueness>staggering 12 versions</uniqueness> of \"Nothing Else Matters\" by everyone from ... My Morning Jacket ... and more.",
+    Sentiment: "-1"
   },
   {
     Track: "42",
@@ -940,8 +940,8 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Fred Thomas",
     Platform: "AllMusic",
     URL: "https://www.allmusic.com/album/the-metallica-blacklist-mw0003548306",
-    Quote: "a <uniqueness><uniqueness>staggering 12 versions</uniqueness></uniqueness> of \"Nothing Else Matters\" by everyone from ... Darius Rucker and more.",
-    Sentiment: "1"
+    Quote: "a <uniqueness>staggering 12 versions</uniqueness> of \"Nothing Else Matters\" by everyone from ... Darius Rucker and more.",
+    Sentiment: "-1"
   },
   {
     Track: "44",
@@ -989,14 +989,14 @@ export const SONG_RECEPTION = Object.freeze([
     Platform: "AllMusic",
     URL: "https://www.allmusic.com/album/the-metallica-blacklist-mw0003548306",
     Quote: "a <uniqueness>staggering 12 versions</uniqueness> of \"Nothing Else Matters\" by everyone from ... TRESOR ... and more.",
-    Sentiment: "1"
+    Sentiment: "-1"
   },
   {
     Track: "47",
     Author: "Fred Thomas",
     Platform: "AllMusic",
     URL: "https://www.allmusic.com/album/the-metallica-blacklist-mw0003548306",
-    Quote: "The <uniqueness>least-covered songs</uniqueness> on The Metallica Blacklist stand out [such as] Goodnight, Texas' <interpretation>woodsy version</interpretation> of \"Of Wolf and Man\"",
+    Quote: "The <uniqueness>least-covered songs</uniqueness> ... stand out [such as] Goodnight, Texas' <interpretation>woodsy version</interpretation> of \"Of Wolf and Man\"",
     Sentiment: "1"
   },
   {
@@ -1084,7 +1084,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Joe Gross",
     Platform: "The Rolling Stone",
     URL: "https://www.rollingstone.com/music/music-album-reviews/the-metallica-blacklist-1221950/",
-    Quote: "Kamasi Washington turns it into shockingly great electric fusion with singer Patrice Quinn reworking James Hetfield's lyrics into something for the Village Vanguard.",
+    Quote: "Kamasi Washington turns it into shockingly <genre>great electric fusion</genre> with singer Patrice Quinn reworking James Hetfield's lyrics into something for the Village Vanguard.",
     Sentiment: "1"
   },
   {
@@ -1092,7 +1092,7 @@ export const SONG_RECEPTION = Object.freeze([
     Author: "Fred Thomas",
     Platform: "AllMusic",
     URL: "https://www.allmusic.com/album/the-metallica-blacklist-mw0003548306",
-    Quote: "The <uniqueness>least-covered songs on The Metallica Blacklist stand out</uniqueness> [such as] Rodrigo y Gabriela's <instrumentation>precision acoustic instrumental</instrumentation> take on \"The Struggle Within\"",
+    Quote: "The <uniqueness>least-covered songs ... stand out</uniqueness> [such as] Rodrigo y Gabriela's <instrumentation>precision acoustic instrumental</instrumentation> take on \"The Struggle Within\"",
     Sentiment: "1"
   },
   {

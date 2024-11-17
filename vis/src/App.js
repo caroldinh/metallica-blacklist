@@ -71,14 +71,14 @@ const App = () => {
       <RadarCompare/>
       <Markdown children={receptionText} components={{ a: LinkRenderer}}></Markdown>
       <ReceptionColChart />
+      <Markdown children={reachText} components={{ a: LinkRenderer}}></Markdown>
+      <WorldMap/>
       <Markdown children={artistsText} components={{ a: LinkRenderer}}></Markdown>
       <Markdown children={generationsText} components={{ a: LinkRenderer}}></Markdown>
       <GenreDemographics />
-      <Markdown children={reachText} components={{ a: LinkRenderer}}></Markdown>
-      <WorldMap/>
       <Markdown children={conclusionText}></Markdown>
 
-      <p className="footer">Made with 🤘🏼 by Carol Dinh</p>
+      <p className="footer">Made with 🤘🏼 by Caroline Dinh</p>
 
     </div>
   );
