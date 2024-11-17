@@ -26,6 +26,12 @@ export const RadarCompare = () => {
       let newData = SONG_FEATURES.filter((song) => song.Original_Title === currSong);
       setSongData(newData);
 
+      newData.forEach((song, index) => {
+        if (song.Artists === "Metallica") {
+          setOriginal(newData[index]);
+        }
+      })
+
       if (songName !== "" && artist !== "")
         newData = [original].concat(newData.filter((song) => song.Artists === artist));
 
@@ -86,7 +92,7 @@ export const RadarCompare = () => {
         }
       )
 
-      // Draw a lien for each metric
+      // Draw a line for each metric
       newData.forEach((data, index) => {
         let songData = dataSet.mapAs({x: 0, value: index + 1 });
         let series = chart.area(songData)
@@ -102,6 +108,14 @@ export const RadarCompare = () => {
             opacity: (artist != "" && data.Is_Original ? 0 : 0.15),
           })
           series.tooltip().format(`${data.Title} by ${data.Artists}: {%Value}`);
+          series.listen("click", (e) => {
+            if (songName !== "") {
+              if (artist === "")
+                setArtist(newData[index].Artists);
+              else 
+                setArtist("")
+            }
+          })
           //series.markers().enabled(true).type('circle').size(3);
       })
 
@@ -124,11 +138,6 @@ export const RadarCompare = () => {
 
       } else {
         plotSong(songName);
-        songData.forEach((artist, index) => {
-          if (artist.Artists === "Metallica") {
-            setOriginal(songData[index]);
-          }
-        })
       }
 
       return () => {
