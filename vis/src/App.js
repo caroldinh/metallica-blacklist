@@ -8,6 +8,7 @@ import Reach from './texts/reach.md';
 import Artists from './texts/artists.md';
 import Generations from './texts/generations.md';
 import Conclusion from './texts/conclusion.md';
+import Methodology from './texts/methodology.md';
 import { Markdown, LinkRenderer } from './Markdown.tsx';
 import { RadarCompare } from './RadarCompare';
 import { WorldMap } from './Map';
@@ -23,16 +24,16 @@ const App = () => {
   const [conclusionText, setConclusionText] = useState('')
   const [receptionText, setReceptionText] = useState('')
   const [reachText, setReachText] = useState('')
-  const [artistsText, setArtistsText] = useState('')
   const [generationsText, setGenerationsText] = useState('')
+  const [methodologyText, setMethodologyText] = useState('')
 
   const [unforgivenIsPlaying, setUnforgivenIsPlaying] = useState(true);
 
   const handleScroll = () => {
       const position = window.scrollY;
-      if (unforgivenIsPlaying && position > 1080) {
-        document.getElementById("unforgiven-audio").volume = Math.max(0, (100 - 0.1 * (position - 1080)) / 100);
-      } else if (unforgivenIsPlaying && position > 2160) {
+      if (unforgivenIsPlaying && position > 600) {
+        document.getElementById("unforgiven-audio").volume = Math.max(0, (100 - 0.1 * (position - 600)) / 100);
+      } else if (unforgivenIsPlaying && position > 1200) {
         document.getElementById("unforgiven-audio").pause();
       }
   };
@@ -51,15 +52,15 @@ const App = () => {
 		fetch(Blacklist).then(res => res.text()).then(text => setBlacklistText(text))
 		fetch(Reception).then(res => res.text()).then(text => setReceptionText(text))
 		fetch(Reach).then(res => res.text()).then(text => setReachText(text))
-		fetch(Artists).then(res => res.text()).then(text => setArtistsText(text))
 		fetch(Generations).then(res => res.text()).then(text => setGenerationsText(text))
 		fetch(Conclusion).then(res => res.text()).then(text => setConclusionText(text))
+		fetch(Methodology).then(res => res.text()).then(text => setMethodologyText(text))
 	}, [])
 
   return (
     <div className="App">
       <audio id="unforgiven-audio" loop autoPlay> 
-        <source src="/music/the_unforgiven.mp3" type="audio/mpeg"/>
+        <source src="https://github.com/caroldinh/metallica-blacklist/raw/refs/heads/main/vis/public/music/the_unforgiven.mp3" type="audio/mpeg"/>
       </audio>
       <header className="App-header">
         <h1>New Blood Joins This Earth</h1>
@@ -73,10 +74,13 @@ const App = () => {
       <ReceptionColChart />
       <Markdown children={reachText} components={{ a: LinkRenderer}}></Markdown>
       <WorldMap/>
-      <Markdown children={artistsText} components={{ a: LinkRenderer}}></Markdown>
       <Markdown children={generationsText} components={{ a: LinkRenderer}}></Markdown>
       <GenreDemographics />
       <Markdown children={conclusionText}></Markdown>
+      
+      <div className="methodology">
+        <Markdown children={methodologyText}></Markdown>
+      </div>
 
       <p className="footer">Made with 🤘🏼 by Caroline Dinh</p>
 

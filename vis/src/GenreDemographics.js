@@ -23,15 +23,6 @@ export const GenreDemographics = () => {
 
     const colors = useThemeColors();
 
-    /*
-    useEffect(() => {
-        const player = document.getElementById("artist-preview-player");
-        if (player && player.paused) {
-            player.play();
-        }
-    }, [currSong])
-    */
-
     useEffect(() => {
 
         setSortedList(sortBy === 'gender' ? GENRES_BY_GENDER : GENRES_BY_AGE);

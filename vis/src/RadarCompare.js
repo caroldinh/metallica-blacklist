@@ -165,8 +165,32 @@ export const RadarCompare = () => {
       setPreviewURL(ALL_SONGS[indexFromAll].preview_url);
     }, [artist])
 
+  const handleScroll = () => {
+    const audioPlayer = document.getElementById("radar-preview-player");
+    const container = document.getElementById("radar-anchor");
+      if (audioPlayer && container) {
+          const audioPos = container.getBoundingClientRect().top;
+          const near = 600
+          const far = 1080
+          if (Math.abs(audioPos) > near) {
+              audioPlayer.volume = Math.max(0, (100 - 0.1 * (Math.abs(audioPos))) / 100);
+          } else if (Math.abs(audioPos) > far) {
+              audioPlayer.pause();
+          }
+      }
+  };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
     return(
       <>
+      <a id="radar-anchor"></a>
       <div className="chart-header">
                 {/*
         <select value={songName} onChange={(e) => setSongName(e.target.value)}>

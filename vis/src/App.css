@@ -361,44 +361,44 @@ h3 {
   margin-top: 8px;
 }
 
-#reception-quote .proficiency {
+.proficiency {
   background-color: var(--color-background);
 }
 
-#reception-quote .composition {
+.composition {
   background-color: var(--color-foreground);
-  color: var(--color-background);
+  color: var(--color-background) !important;
 }
 
-#reception-quote .interpretation {
+.interpretation {
   background-color: var(--primary);
 }
 
-#reception-quote .instrumentation {
+.instrumentation {
   background-color: var(--accent);
-  color: var(--color-background);
+  color: var(--color-background) !important;
 }
 
-#reception-quote .reputation {
+.reputation {
   background-color: var(--paragraph);
 }
 
-#reception-quote .genre {
+.genre {
   background-color: var(--theme-1);
 }
 
-#reception-quote .loyalty {
+.loyalty {
   background-color: var(--theme-2);
-  color: var(--color-background);
+  color: var(--color-background) !important;
 }
 
-#reception-quote .memorability {
+.memorability {
   background-color: var(--theme-3);
 }
 
-#reception-quote .uniqueness {
+.uniqueness {
   background-color: var(--theme-4);
-  color: var(--color-background);
+  color: var(--color-background) !important;
 }
 
 .reception-select {
@@ -604,4 +604,28 @@ h3 {
 
 #stage-title-row option {
   color: var(--accent);
+}
+
+.methodology {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.methodology h3 {
+  font-size: 20px;
+  font-family: var(--body-font);
+  color: var(--accent)
+}
+
+.methodology p {
+  font-size: 16px;
+  margin-left: 30vw;
+  width: 40vw;
+  text-align: justify;
+  color: var(--primary);
+}
+
+.methodology a {
+  color: var(--primary);
+  text-decoration: underline;
 }
