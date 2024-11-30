@@ -27,6 +27,7 @@ html {
   scrollbar-width: thin;
   scrollbar-color: var(--accent) var(--color-background);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -44,14 +45,13 @@ header {
 }
 
 h1 {
-  margin-left: 12vw;
-  margin-right: 12vw;
   font-family: var(--heading-font);
   font-weight: 400;
   font-style: normal;
-  font-size: 96px;
+  font-size: 54px;
   line-height: 1.25;
   text-align: center;
+  margin-bottom: 0;
 }
 
 h4 {
@@ -95,6 +95,40 @@ a {
 
 strong {
   color: var(--color-foreground);
+}
+
+#metalligif {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: unset;
+  z-index: 10000;
+}
+
+#text-start {
+  min-height: 100vh;
+}
+
+#btn-start {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  z-index: 10000;
+}
+
+#btn-start :hover {
+  cursor: pointer !important;
+  opacity: 0.7;
 }
 
 #ac-chart-container {
@@ -359,6 +393,19 @@ h3 {
   font-weight: bolder;
   margin-left: auto;
   margin-top: 8px;
+}
+
+#reception-category-list span {
+  font-weight: bolder;
+  color: white;
+  margin-right: 4px;
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+#reception-category-list li {
+  margin-bottom: 16px;
 }
 
 .proficiency {
@@ -628,4 +675,26 @@ h3 {
 .methodology a {
   color: var(--primary);
   text-decoration: underline;
+}
+
+.worldmap-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-and-caption {
+  width: 60%;
+  margin-left: 12vw;
+  border-left: 4px solid var(--accent);
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  margin-bottom: 8vh;
+  margin-top: 8vh;
+}
+
+.image-and-caption img {
+  width: 80%;
 }

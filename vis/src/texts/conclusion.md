@@ -1,12 +1,12 @@
 ## ALL THESE WORDS I DON’T JUST SAY
 
-I’ve only been a Metallica megafan for a couple of years. Sad but true.
+From fans, *The Metallica Blacklist* met mixed reviews. The consensus was that no one, regardless of age, would have known every artist: one Redditor claimed to have only heard of Miley Cyrus; another claimed to recognize half and half. Most could recognize just a handful. Whether that handful consists of Ghost, Volbeat, and Royal Blood—or St. Vincent, Rina Sawayama, and Phoebe Bridgers—depends entirely on who you are and what your non-Metallica music taste is.   
 
-I've at least been familiar with the Black Album since high school. But I think I can pinpoint the exact moment when Metallica lured me into the snakepit once and for all: in 2022, *Stranger Things* Season 4 released on Netflix, and though I never watched the series, I came across their Instagram post months later showing James Hetfield decked out as Eddie Munson for Halloween.
+I'd like to believe that this album was not just a means of exposing new listeners to Metallica, but of exposing Metallica listeners to new music. Although I don't love every song, what I love about the *Blacklist* is that most listeners will find both a familiar face and a new artist to pay attention to.   
 
-At this point I'd been into Queen, Nirvana, Guns N' Roses, Van Halen. I knew the snobbery with which some die-hard fans spoke of people my age who liked rock music: everyone's wearing a Nirvana shirt nowadays. Did you know the smiley is a band, not a brand? Can you name three songs? It doesn't count if it's from a movie. The same thing had been happening to Metallica for years, recently resurging with Eddie Munson's upside-down solo. The band was having none of it.
+In any case, it wasn't even *The Metallica Blacklist* that lured me into the snakepit once and for all. No, it was October 2022, and I was in the right place at the right time when James Hetfield posted a Halloween picture of himself dressed as Eddie Munson from *Stranger Things.* Season 4 had come out that summer, introducing a spunky new character who shredded *Master of Puppets* in an epic showdown in the Upside-Down.
 
-In response to a TikTok comment bemoaning Metallica's new "Stranger Things fake fans," the band clapped back: "FYI – EVERYONE is welcome in the Metallica Family. Whether you’ve been a fan for 40 hours or 40 years, we all share a bond through music. All of you started at ground zero at one point in time."
+I never watched that season, but I'd vaguely been following the band's response to gatekeepers making fun of the new fans my age. "FYI – EVERYONE is welcome in the Metallica Family," the band posted to TikTok, "Whether you’ve been a fan for 40 hours or 40 years, we all share a bond through music. All of you started at ground zero at one point in time."
 
 "You know what?" I said. "Respect. I should listen to more Metallica."
 
