@@ -39,11 +39,11 @@ export const GenreDemographics = () => {
 
             <div id="stage-title-row">
                 <div style={{ width: '40%', textAlign: 'center', marginBottom: '4vh' }}>
-                <select value={sortBy} defaultValue="gender" onChange={(e) => setSortBy(e.target.value)}>
-                    <option value="gender">Gender distribution</option>
-                    <option value="age">Average age</option>
-                </select>
-                <p id="stage-title"> of Spotify listeners to Genres on <i>The Metallica Blacklist</i></p>
+                    <select value={sortBy} defaultValue="gender" onChange={(e) => setSortBy(e.target.value)}>
+                        <option value="gender">Gender distribution</option>
+                        <option value="age">Average age</option>
+                    </select>
+                    <p id="stage-title"> of Spotify listeners to Genres on <i>The Metallica Blacklist</i></p>
                 </div>
                 <div className="chart-key">
                     <span className="key-item">
@@ -58,11 +58,11 @@ export const GenreDemographics = () => {
                         <span className="key-color primary"></span>
                         <span className="key-label">Old school thrash - Metallica's core genre</span>
                     </span>
-                    { sortBy === 'gender' &&
-                    <span className="key-item">
-                        <span className="key-color theme-2"></span>
-                        <span className="key-label">Gender parity (approx)</span>
-                    </span>
+                    {sortBy === 'gender' &&
+                        <span className="key-item">
+                            <span className="key-color theme-2"></span>
+                            <span className="key-label">Gender parity (approx)</span>
+                        </span>
                     }
                 </div>
             </div>
@@ -70,11 +70,11 @@ export const GenreDemographics = () => {
             <div class="artist-row">
                 <div class="bars-row">
                     <p className="key-text">← {sortBy === 'gender' ? "More male" : "Younger"} listeners</p>
-                    <p className="key-text">{sortBy === 'gender' ? 'More female' : 'Older' } listeners →</p>
+                    <p className="key-text">{sortBy === 'gender' ? 'More female' : 'Older'} listeners →</p>
                 </div>
             </div>
 
-            {currSong && <audio id="artist-preview-player" src={currSong.preview_url} autoPlay loop></audio> }
+            {currSong && <audio id="artist-preview-player" src={currSong.preview_url} autoPlay loop></audio>}
 
             <div
                 onMouseLeave={() => {
@@ -84,83 +84,89 @@ export const GenreDemographics = () => {
             >
 
 
-            {Object.keys(ARTISTS_DICT).filter(artist => ARTISTS_DICT[artist].name !== "Metallica" && ARTISTS_DICT[artist].genres.length).map(artist_id => {
+                {Object.keys(ARTISTS_DICT).filter(artist => ARTISTS_DICT[artist].name !== "Metallica" && ARTISTS_DICT[artist].genres.length).map(artist_id => {
 
-                const SONG_DETAILS = ALL_SONGS.filter(song => song.artists.map(artist => artist.id).indexOf(artist_id) >= 0)[0]
+                    const SONG_DETAILS = ALL_SONGS.filter(song => song.artists.map(artist => artist.id).indexOf(artist_id) >= 0)[0]
 
-                return (
+                    return (
 
-                    <div class="artist-row"
-                        style={{
-                            backgroundColor: currArtist === artist_id ? colors.ACCENT : colors.BACKGROUND
-                        }}
-                        onMouseOver={() => { 
-                            if (currArtist !== artist_id) {
-                                setCurrArtist(artist_id) 
-                                setCurrSong(SONG_DETAILS)
-                            }
-                        }}
-                    >
-
-                        {currArtist &&
-                            <div class="artists-header" style={{
-                                display: currArtist === artist_id ? "flex" : "none"
-                            }}>
-                                <img className="img" src={ARTISTS_DICT[currArtist].images.length ? ARTISTS_DICT[currArtist].images[0].url : ""}></img>
-                                <div class="text-col">
-                                    <p className="name">{ARTISTS_DICT[currArtist].name}</p>
-                                    <p className="detail-text">{currSong && `${ALL_SONGS.indexOf(currSong) + 1}`}. {currSong && currSong.name}</p>
-                                </div>
-                            </div>
-                        }
-                        {
-                            currGenre &&
-                            <div id="genre-tooltip"
-                                style={{
-                                    display: currArtist === artist_id ? "flex" : "none"
-                                }}
-                            >
-                                {currGenre === "chamber ensemble" || currGenre === "slacker rock" ? 
-                                <p>{currGenre}: No demographic data available</p> : 
-                                sortBy === 'gender' ? 
-                                <p>{currGenre}: {EVERYNOISE_GENRES[currGenre].percent_female}% female listeners on Spotify</p>
-                                :
-                                <p>{currGenre}: {EVERYNOISE_GENRES[currGenre].average_age} is the average age of listeners on Spotify</p>
+                        <div class="artist-row"
+                            style={{
+                                backgroundColor: currArtist === artist_id ? colors.ACCENT : colors.BACKGROUND
+                            }}
+                            onMouseOver={() => {
+                                if (currArtist !== artist_id) {
+                                    setCurrArtist(artist_id)
+                                    setCurrSong(SONG_DETAILS)
                                 }
-                            </div>
-                        }
-
-
-                        <div class="bars-row"
+                            }}
                         >
-                            {sortedList.filter(genre => genre !== "thrash metal" && genre !== "slacker rock" && genre !== "chamber ensemble").map((genre, index) =>
 
-                                <>
-
-
-                                    <div key={index} className="genre-cell" style={{
-                                        backgroundColor:
-                                            ARTISTS_DICT[artist_id].genres.indexOf(genre) >= 0 ? colors.FOREGROUND :
-                                                currArtist === artist_id && currGenre !== genre ? colors.ACCENT :
-                                                currArtist === artist_id && currGenre === genre ? colors.PRIMARY :
-                                                genre === "old school thrash" ? colors.PRIMARY :
-                                                genre === "electropop" && sortBy === "gender" ? colors.THEME2 :
-                                                colors.BACKGROUND
-                                    }}
-                                        onMouseEnter={() => { setCurrGenre(genre) }}
-                                        onMouseOut={() => { setCurrGenre(null) }}
-                                        title={genre}>
+                            {currArtist &&
+                                <div class="artists-header" style={{
+                                    display: currArtist === artist_id ? "flex" : "none"
+                                }}>
+                                    <img className="img" src={ARTISTS_DICT[currArtist].images.length ? ARTISTS_DICT[currArtist].images[0].url : ""}></img>
+                                    <div class="text-col">
+                                        <p className="name">{ARTISTS_DICT[currArtist].name}</p>
+                                        <p className="detail-text">{currSong && `${ALL_SONGS.indexOf(currSong) + 1}`}. {currSong && currSong.name}</p>
                                     </div>
+                                </div>
+                            }
+                            {
+                                currGenre &&
+                                <div id="genre-tooltip"
+                                    style={{
+                                        display: currArtist === artist_id ? "flex" : "none"
+                                    }}
+                                >
+                                    {currGenre === "chamber ensemble" || currGenre === "slacker rock" ?
+                                        <p>{currGenre}: No demographic data available</p> :
+                                        sortBy === 'gender' ?
+                                            <>
+                                                <p><strong>{currGenre}</strong>:&nbsp;<span class="stat">{EVERYNOISE_GENRES[currGenre].percent_female}%</span>&nbsp;female listeners on Spotify</p>
+                                                <p className="metallica-compare"><span class="stat">+{Math.round((EVERYNOISE_GENRES[currGenre].percent_female - 10.5) * 100) / 100}%</span>&nbsp;from Metallica's old school thrash listeners</p>
+                                            </>
+                                            :
+                                            <>
+                                                <p>Average age of&nbsp;<strong>{currGenre}</strong>&nbsp;listeners:&nbsp;<span class="stat">{EVERYNOISE_GENRES[currGenre].average_age}</span></p>
+                                                <p className="metallica-compare"><span class="stat">{EVERYNOISE_GENRES[currGenre].average_age < 36.5 ? "-" : "+"}{Math.round((Math.abs(EVERYNOISE_GENRES[currGenre].average_age - 36.5)) * 100) / 100}</span>&nbsp;from Metallica's old school thrash listeners</p>
+                                            </>
+                                    }
+                                    {ARTISTS_DICT[currArtist].genres.indexOf(currGenre) != -1 ? <p class="genre-of-artist">Spotify categorizes {ARTISTS_DICT[currArtist].name} as {currGenre}.</p> : <span></span>}
+                                </div>
+                            }
 
-                                </>
+                            <div class="bars-row"
+                            >
+                                {sortedList.filter(genre => genre !== "thrash metal" && genre !== "slacker rock" && genre !== "chamber ensemble").map((genre, index) =>
 
-                            )}
+                                    <>
+
+
+                                        <div key={index} className="genre-cell" style={{
+                                            backgroundColor:
+                                                ARTISTS_DICT[artist_id].genres.indexOf(genre) >= 0 ? colors.FOREGROUND :
+                                                    currArtist === artist_id && currGenre !== genre ? colors.ACCENT :
+                                                        currArtist === artist_id && currGenre === genre ? colors.PRIMARY :
+                                                            genre === "old school thrash" ? colors.PRIMARY :
+                                                                genre === "electropop" && sortBy === "gender" ? colors.THEME2 :
+                                                                    colors.BACKGROUND
+                                        }}
+                                            onMouseEnter={() => { setCurrGenre(genre) }}
+                                            onMouseOut={() => { setCurrGenre(null) }}
+                                            title={genre}>
+                                        </div>
+
+                                    </>
+
+                                )}
+                            </div>
+
                         </div>
 
-                    </div>
-
-                )
-            })}
+                    )
+                })}
             </div>
 
         </div>
